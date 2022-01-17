@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Sady.图床--我也有图床啦！</title>
+      <link href="/2021/11/22/Sady.%E5%9B%BE%E5%BA%8A--%E6%88%91%E4%B9%9F%E6%9C%89%E5%9B%BE%E5%BA%8A%E5%95%A6%EF%BC%81/"/>
+      <url>/2021/11/22/Sady.%E5%9B%BE%E5%BA%8A--%E6%88%91%E4%B9%9F%E6%9C%89%E5%9B%BE%E5%BA%8A%E5%95%A6%EF%BC%81/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>Sady.图床(fgb.sady0.com)提供中文免费图床服务,原图上传,支持外链,支持粘贴上传无限制,全球CDN分发为您提供高速外链支持</p></blockquote><p>Sady.图床：<a href="https://fgb.sady0.com/">https://fgb.sady0.com</a></p><p><strong>我会利用业余时间维护Sady.图床, 希望给大家提供一个高速稳定而且长久的图片托管服务,让网站能够长期运营，坚持信仰！</strong></p><ul><li><p>1.启动AI自动图片识别系统.</p></li><li><p>2.限制使用VPN的用户上传权限.</p></li><li><p>3.限制部分国家或地区的用户上传权限.</p></li><li><p>4.屏蔽违规网站的外链权限.</p></li><li><p>5.特殊时间关闭游客上传权限.</p></li><li><p>6.对于违规用户, 删除该用户的所有图片并封IP段, 并保留公布相关违规用户信息权利.</p></li><li><p>7.对于多次或严重违规的用户(包括儿童色情、黑产、博彩、诈骗、网络钓鱼等)将直接举报给网监.</p></li></ul><p><img src="https://sady-1307006175.cos.ap-nanjing.myqcloud.com/2021/11/22/1ac4a70b7ff77.png" alt="Sady.图床"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>阿里云使用宝塔面板部署 Hexo 博客</title>
+      <link href="/2021/11/05/%E9%98%BF%E9%87%8C%E4%BA%91%E4%BD%BF%E7%94%A8%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E9%83%A8%E7%BD%B2%20Hexo%20%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2021/11/05/%E9%98%BF%E9%87%8C%E4%BA%91%E4%BD%BF%E7%94%A8%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E9%83%A8%E7%BD%B2%20Hexo%20%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<p>It has been 541 days since the last update, the content of the article may be outdated.</p><p>宝塔系统依托于 <code>Centos</code> 开发，所以我们服务器系统选择 Centos7+</p><h2 id="安装宝塔"><a href="#安装宝塔" class="headerlink" title="安装宝塔"></a>安装宝塔</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install_6.0.sh &amp;&amp; sh install.sh</span><br></pre></td></tr></table></figure><p>安装完成后，登录宝塔，首次登录会提示我们安装环境，我们勾选 <code>Nginx</code> 即可。</p><p>之后，我们在 <code>home</code> 文件夹下新建 <code>git</code>，<code>hexo</code> 这两个文件夹</p><p><a href="https://bu.dusays.com/2021/09/28/edc98ab86ee44.png"><img src="https://bu.dusays.com/2021/09/28/edc98ab86ee44.png" alt="img"></a></p><p>随后，我们登录我们的服务器，一次执行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd ..</span><br><span class="line">cd home</span><br><span class="line">cd git</span><br><span class="line">git init --bare blog.git</span><br></pre></td></tr></table></figure><p>接着，在目录 <code>/home/git/blog.git/hooks</code> 下新建文件 <code>post-receive</code>，写入一下代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git --work-tree=/home/hexo --git-dir=/home/git/blog.git checkout -f</span><br></pre></td></tr></table></figure><p>给 <code>post-receive</code> 权限</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod +x /home/git/blog.git/hooks/post-receive</span><br></pre></td></tr></table></figure><h2 id="配置-Nginx"><a href="#配置-Nginx" class="headerlink" title="配置 Nginx"></a>配置 Nginx</h2><p>宝塔面板默认的 <code>nginx</code> 配置文件在根目录 -&gt;www-&gt;serve-&gt;nginx-&gt;conf 下，找到 <code>nginx.conf</code>，编辑它</p><p>重启 <code>nginx</code> 服务</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service nginx restart</span><br></pre></td></tr></table></figure><h2 id="本地-Hexo-配置"><a href="#本地-Hexo-配置" class="headerlink" title="本地 Hexo 配置"></a>本地 Hexo 配置</h2><p>修改<code>_config.yml</code> 中的配置</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: user@ip:/home/git/blog</span><br></pre></td></tr></table></figure><p>这个时候配置差不多就好了，<code>hexo generate --deplay</code> 部署后就可以访问博客了</p><p>接下来在宝塔面板里添加网站</p><p><a href="https://bu.dusays.com/2021/09/28/f0e14ae0e58ea.png"><img src="https://bu.dusays.com/2021/09/28/f0e14ae0e58ea.png" alt="img"></a></p><p>之后在阿里云将域名解析到服务器 ip 即可</p><h2 id="SSL-证书"><a href="#SSL-证书" class="headerlink" title="SSL 证书"></a>SSL 证书</h2><p>在阿里云中申请个证书，将内容填入其中即可</p><p><a href="https://bu.dusays.com/2021/09/28/d24d1d90c359b.png"><img src="https://bu.dusays.com/2021/09/28/d24d1d90c359b.png" alt="img"></a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
