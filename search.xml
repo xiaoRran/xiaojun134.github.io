@@ -4,9 +4,509 @@
   
     
     <entry>
+      <title>初玩博客---对博客系统选择</title>
+      <link href="/2021/11/29/Blog/"/>
+      <url>/2021/11/29/Blog/</url>
+      
+        <content type="html"><![CDATA[<p>** 现在博客系统比较多，一一列举肯定是不可能的，这里选择了4个，分别是：Wordpress，Hexo，Typecho，INIS **</p><h1 id="Wordpress（wordpress-org）"><a href="#Wordpress（wordpress-org）" class="headerlink" title="Wordpress（wordpress.org）"></a>Wordpress（wordpress.org）</h1><p>这个系统我曾经用过，但是吧有点接受不了<br><img src="https://img1.baidu.com/it/u=3874753494,1453037774&fm=26&fmt=auto&gp=0.jpg" alt="Wordpress"></p><h3 id="优点："><a href="#优点：" class="headerlink" title="优点："></a>优点：</h3><ol><li>基本都是动态的网页，写文章不像其他blog系统用的是markdown，这也带来了更好的书写体验。（当然有人用得惯markdown那就没关系了）</li><li>使用人数多因此插件和主题也相对多，可扩展度也就更高。</li><li>即使在不对它进行扩展的情况下，功能也很多</li></ol><h3 id="缺点："><a href="#缺点：" class="headerlink" title="缺点："></a>缺点：</h3><ol><li>动态网页，最大的问题就是加载慢，对服务器要求相对较高</li><li>默认主题丑的一批，虽然其他俩也这样</li></ol><h1 id="Typecho（typecho-org）"><a href="#Typecho（typecho-org）" class="headerlink" title="Typecho（typecho.org）"></a>Typecho（typecho.org）</h1><p>这个也是我正在用的，我这边会重点讲<br><img src="https://img2.baidu.com/it/u=3087675103,3300994286&fm=26&fmt=auto&gp=0.jpg" alt="Typecho"></p><h3 id="优点：-1"><a href="#优点：-1" class="headerlink" title="优点："></a>优点：</h3><ol><li>基本静态，访问很快</li><li>占用非常小，一般正常的服务器运行都没得压力。</li><li>主题非常丰富</li></ol><h3 id="缺点：-1"><a href="#缺点：-1" class="headerlink" title="缺点："></a>缺点：</h3><ol><li>后台简洁，可玩性不高</li></ol><h1 id="Hexo（hexo-io）"><a href="#Hexo（hexo-io）" class="headerlink" title="Hexo（hexo.io）"></a>Hexo（hexo.io）</h1><p><img src="https://img0.baidu.com/it/u=1715427547,838496870&fm=26&fmt=auto&gp=0.jpg" alt="Hexo"></p><h3 id="优点：-2"><a href="#优点：-2" class="headerlink" title="优点："></a>优点：</h3><ol><li>完全静态，速度起飞。</li><li>主题很多，而且很多都很好看（由于我当时并没有玩懂所以我不知道能不能装插件）</li></ol><h3 id="缺点：-2"><a href="#缺点：-2" class="headerlink" title="缺点："></a>缺点：</h3><ol><li>安装个环境都能把人整疯的那种</li><li>到现在我都不知道他文章咋写的</li></ol><h1 id="INIS（https-racns-com-inis-html）"><a href="#INIS（https-racns-com-inis-html）" class="headerlink" title="INIS（https://racns.com/inis.html）"></a>INIS（<a href="https://racns.com/inis.html%EF%BC%89">https://racns.com/inis.html）</a></h1><p><strong>inis · 新一代博客系统</strong><br><img src="https://inis.cn/assets/images/logo.png" alt="INIS"></p><h3 id="优点：-3"><a href="#优点：-3" class="headerlink" title="优点："></a>优点：</h3><ol><li>整站封装，全站分离，真正意义上的前后端分离</li><li>由于使用静态，访问速度非常快</li><li>界面简洁</li></ol><h3 id="缺点：-3"><a href="#缺点：-3" class="headerlink" title="缺点："></a>缺点：</h3><ol><li>系统刚刚发布，还有部分BUG</li><li>新博客系统主题和插件较少</li></ol><p>整体而言还是不错的，而且新一代博客系统，还会有很大的发展前景的<br>演示站：blog.mxwl520.cn</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 闲谈 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>常用CSS样式</title>
+      <link href="/2021/11/29/CSS/"/>
+      <url>/2021/11/29/CSS/</url>
+      
+        <content type="html"><![CDATA[<p>本文转自<a href="https://moil.cc/398.html">云星日记</a>，用于个人学习。</p><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>对于大佬们来说，CSS一点都不难，轻轻松松的就记了下来；但对于新手小白来说，CSS太多了，真的是太难了。于是就整理了一些CSS样式方便使用😇。</p><h2 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h2><h3 id="字体属性：-font"><a href="#字体属性：-font" class="headerlink" title="字体属性：(font)"></a>字体属性：(font)</h3><p>大小 {font-size: x-large;}(特大) xx-small;(极小) 一般中文用不到，只要用数值就可以，单位：PX、PD</p><p>样式 {font-style: oblique;}(偏斜体) italic;(斜体) normal;(正常)</p><p>行高 {line-height: normal;}(正常) 单位：PX、PD、EM</p><p>粗细 {font-weight: bold;}(粗体) lighter;(细体) normal;(正常)</p><p>变体 {font-variant: small-caps;}(小型大写字母) normal;(正常)</p><p>大小写 {text-transform: capitalize;}(首字母大写) uppercase;(大写) lowercase;(小写) none;(无)</p><p>修饰 {text-decoration: underline;}(下划线) overline;(上划线) line-through;(删除线) blink;(闪烁)</p><p>常用字体： (font-family)</p><p>“Courier New”, Courier, monospace, “Times New Roman”, Times, serif, Arial, Helvetica, sans-serif, Verdana</p><h3 id="背景属性：-background"><a href="#背景属性：-background" class="headerlink" title="背景属性： (background)"></a>背景属性： (background)</h3><p>色彩 {background-color: #FFFFFF;}</p><p>图片 {background-image: url();}</p><p>重复 {background-repeat: no-repeat;}</p><p>滚动 {background-attachment: fixed;}(固定) scroll;(滚动)</p><p>位置 {background-position: left;}(水平) top(垂直);</p><p>简写方法 {background:#000 url(..) repeat fixed left top;} /简写·这个在阅读代码中经常出现，要认真的研究/</p><h3 id="区块属性：-Block-这个属性第一次认识，要多多研究"><a href="#区块属性：-Block-这个属性第一次认识，要多多研究" class="headerlink" title="区块属性： (Block) /这个属性第一次认识，要多多研究/"></a>区块属性： (Block) /这个属性第一次认识，要多多研究/</h3><p>字间距 {letter-spacing: normal;} 数值 /这个属性似乎有用，多实践下/</p><p>对齐 {text-align: justify;}(两端对齐) left;(左对齐) right;(右对齐) center;(居中)</p><p>缩进 {text-indent: 数值px;}</p><p>垂直对齐 {vertical-align: baseline;}(基线) sub;(下标) super;(下标) top; text-top; middle; bottom; text-bottom;</p><p>词间距word-spacing: normal; 数值</p><p>空格white-space: pre;(保留) nowrap;(不换行)</p><p>显示 {display:block;}(块) inline;(内嵌) list-item;(列表项) run-in;(追加部分) compact;(紧凑) marker;(标记) table; inline-table; table-raw-group; table-header-group; table-footer-group; table-raw; table-column-group; table-column; table-cell; table-caption;(表格标题) /display 属性的了解很模糊/</p><h3 id="方框属性：-Box"><a href="#方框属性：-Box" class="headerlink" title="方框属性： (Box)"></a>方框属性： (Box)</h3><p>width:; height:; float:; clear:both; margin:; padding:; 顺序：上右下左</p><h3 id="边框属性：-Border"><a href="#边框属性：-Border" class="headerlink" title="边框属性： (Border)"></a>边框属性： (Border)</h3><p>border-style: dotted;(点线) dashed;(虚线) solid; double;(双线) groove;(槽线) ridge;(脊状) inset;(凹陷) outset;</p><p>border-width:; 边框宽度</p><p>border-color:#;</p><p>简写方法border：width style color; /简写/</p><h3 id="列表属性：-List-style"><a href="#列表属性：-List-style" class="headerlink" title="列表属性： (List-style)"></a>列表属性： (List-style)</h3><p>类型list-style-type: disc;(圆点) circle;(圆圈) square;(方块) decimal;(数字) lower-roman;(小罗码数字) upper-roman; lower-alpha; upper-alpha;</p><p>位置list-style-position: outside;(外) inside;</p><p>图像list-style-image: url(..);</p><h3 id="定位属性：-Position"><a href="#定位属性：-Position" class="headerlink" title="定位属性： (Position)"></a>定位属性： (Position)</h3><p>Position: absolute; relative; static;</p><p>visibility: inherit; visible; hidden;</p><p>overflow: visible; hidden; scroll; auto;</p><p>clip: rect(12px,auto,12px,auto) (裁切)</p><h2 id="css属性代码大全"><a href="#css属性代码大全" class="headerlink" title="css属性代码大全"></a>css属性代码大全</h2><h3 id="一-CSS文字属性："><a href="#一-CSS文字属性：" class="headerlink" title="一 CSS文字属性："></a>一 CSS文字属性：</h3><p>color : #999999; /文字颜色/</p><p>font-family : 宋体,sans-serif; /文字字体/</p><p>font-size : 9pt; /文字大小/</p><p>font-style:itelic; /文字斜体/</p><p>font-variant:small-caps; /小字体/</p><p>letter-spacing : 1pt; /字间距离/</p><p>line-height : 200%; /设置行高/</p><p>font-weight:bold; /文字粗体/</p><p>vertical-align:sub; /下标字/</p><p>vertical-align:super; /上标字/</p><p>text-decoration:line-through; /加删除线/</p><p>text-decoration: overline; /加顶线/</p><p>text-decoration:underline; /加下划线/</p><p>text-decoration:none; /删除链接下划线/</p><p>text-transform : capitalize; /首字大写/</p><p>text-transform : uppercase; /英文大写/</p><p>text-transform : lowercase; /英文小写/</p><p>text-align:right; /文字右对齐/</p><p>text-align:left; /文字左对齐/</p><p>text-align:center; /文字居中对齐/</p><p>text-align:justify; /文字分散对齐/</p><p>vertical-align属性</p><p>vertical-align:top; /垂直向上对齐/</p><p>vertical-align:bottom; /垂直向下对齐/</p><p>vertical-align:middle; /垂直居中对齐/</p><p>vertical-align:text-top; /文字垂直向上对齐/</p><p>vertical-align:text-bottom; /文字垂直向下对齐/</p><h3 id="二、CSS边框空白"><a href="#二、CSS边框空白" class="headerlink" title="二、CSS边框空白"></a>二、CSS边框空白</h3><p>padding-top:10px; /上边框留空白/</p><p>padding-right:10px; /右边框留空白/</p><p>padding-bottom:10px; /下边框留空白/</p><p>padding-left:10px; /*左边框留空白</p><h3 id="三、CSS符号属性："><a href="#三、CSS符号属性：" class="headerlink" title="三、CSS符号属性："></a>三、CSS符号属性：</h3><p>list-style-type:none; /不编号/</p><p>list-style-type:decimal; /阿拉伯数字/</p><p>list-style-type:lower-roman; /小写罗马数字/</p><p>list-style-type:upper-roman; /大写罗马数字/</p><p>list-style-type:lower-alpha; /小写英文字母/</p><p>list-style-type:upper-alpha; /大写英文字母/</p><p>list-style-type:disc; /实心圆形符号/</p><p>list-style-type:circle; /空心圆形符号/</p><p>list-style-type:square; /实心方形符号/</p><p>list-style-image:url(/dot.gif); /图片式符号/</p><p>list-style-position: outside; /凸排/</p><p>list-style-position:inside; /缩进/</p><h3 id="四、CSS背景样式："><a href="#四、CSS背景样式：" class="headerlink" title="四、CSS背景样式："></a>四、CSS背景样式：</h3><p>background-color:#F5E2EC; /背景颜色/</p><p>background:transparent; /透视背景/</p><p>background-image : url(/image/bg.gif); /背景图片/</p><p>background-attachment : fixed; /浮水印固定背景/</p><p>background-repeat : repeat; /重复排列-网页默认/</p><p>background-repeat : no-repeat; /不重复排列/</p><p>background-repeat : repeat-x; /在x轴重复排列/</p><p>background-repeat : repeat-y; /在y轴重复排列/</p><p>指定背景位置</p><p>background-position : 90% 90%; /背景图片x与y轴的位置/</p><p>background-position : top; /向上对齐/</p><p>background-position : buttom; /向下对齐/</p><p>background-position : left; /向左对齐/</p><p>background-position : right; /向右对齐/</p><p>background-position : center; /居中对齐/</p><h3 id="五、CSS连接属性："><a href="#五、CSS连接属性：" class="headerlink" title="五、CSS连接属性："></a>五、CSS连接属性：</h3><p>a /所有超链接/</p><p>a:link /超链接文字格式/</p><p>a:visited /浏览过的链接文字格式/</p><p>a:active /按下链接的格式/</p><p>a:hover /鼠标转到链接/</p><p>鼠标光标样式：</p><p>链接手指 CURSOR: hand</p><p>十字体 cursor:crosshair</p><p>箭头朝下 cursor:s-resize</p><p>十字箭头 cursor:move</p><p>箭头朝右 cursor:move</p><p>加一问号 cursor:help</p><p>箭头朝左 cursor:w-resize</p><p>箭头朝上 cursor:n-resize</p><p>箭头朝右上 cursor:ne-resize</p><p>箭头朝左上 cursor:nw-resize</p><p>文字I型 cursor:text</p><p>箭头斜右下 cursor:se-resize</p><p>箭头斜左下 cursor:sw-resize</p><p>漏斗 cursor:wait</p><p>光标图案(IE6) p {cursor:url(“光标文件名.cur”),text;}</p><h3 id="六、CSS框线一览表："><a href="#六、CSS框线一览表：" class="headerlink" title="六、CSS框线一览表："></a>六、CSS框线一览表：</h3><p>border-top : 1px solid #6699cc; /上框线/</p><p>border-bottom : 1px solid #6699cc; /下框线/</p><p>border-left : 1px solid #6699cc; /左框线/</p><p>border-right : 1px solid #6699cc; /右框线/</p><p>以上是建议书写方式,但也可以使用常规的方式 如下:</p><p>border-top-color : #369 /设置上框线top颜色/</p><p>border-top-width :1px /设置上框线top宽度/</p><p>border-top-style : solid/设置上框线top样式/</p><p>其他框线样式</p><p>solid /实线框/</p><p>dotted /虚线框/</p><p>double /双线框/</p><p>groove /立体内凸框/</p><p>ridge /立体浮雕框/</p><p>inset /凹框/</p><p>outset /凸框/</p><h3 id="七、CSS表单运用："><a href="#七、CSS表单运用：" class="headerlink" title="七、CSS表单运用："></a>七、CSS表单运用：</h3><p>文字方块</p><p>按钮</p><p>复选框</p><p>选择钮</p><p>多行文字方块</p><p>下拉式菜单 选项1选项2</p><h3 id="八、CSS边界样式："><a href="#八、CSS边界样式：" class="headerlink" title="八、CSS边界样式："></a>八、CSS边界样式：</h3><p>margin-top:10px; /上边界/</p><p>margin-right:10px; /右边界值/</p><p>margin-bottom:10px; /下边界值/</p><p>margin-left:10px; /左边界值/</p><h3 id="CSS-属性：-字体样式-Font-Style"><a href="#CSS-属性：-字体样式-Font-Style" class="headerlink" title="CSS 属性： 字体样式(Font Style)"></a>CSS 属性： 字体样式(Font Style)</h3><p>序号 中文说明 标记语法</p><p>1 字体样式 {font:font-style font-variant font-weight font-size font-family}</p><p>2 字体类型 {font-family:”字体1”,”字体2”,”字体3”,…}</p><p>3 字体大小 {font-size:数值|inherit| medium| large| larger| x-large| xx-large| small| smaller| x-small| xx-small}</p><p>4 字体风格 {font-style:inherit|italic|normal|oblique}</p><p>5 字体粗细 {font-weight:100-900|bold|bolder|lighter|normal;}</p><p>6 字体颜色 {color:数值;}</p><p>7 阴影颜色 {text-shadow:16位色值}</p><p>8 字体行高 {line-height:数值|inherit|normal;}</p><p>9 字 间 距 {letter-spacing:数值|inherit|normal}</p><p>10 单词间距 {word-spacing:数值|inherit|normal}</p><p>11 字体变形 {font-variant:inherit|normal|small-cps }</p><p>12 英文转换 {text-transform:inherit|none|capitalize|uppercase|lowercase}</p><p>13 字体变形 {font-size-adjust:inherit|none}</p><p>14 字体 {font-stretch:condensed|expanded|extra-condensed|extra-expanded|inherit|narrower|normal| semi-condensed|semi-expanded|ultra-condensed|ultra-expanded|wider}</p><h3 id="文本样式-Text-Style"><a href="#文本样式-Text-Style" class="headerlink" title="文本样式(Text Style)"></a>文本样式(Text Style)</h3><p>序号 中文说明 标记语法</p><p>1 行 间 距 {line-height:数值|inherit|normal;}</p><p>2 文本修饰 {text-decoration:inherit|none|underline|overline|line-through|blink}</p><p>3 段首空格 {text-indent:数值|inherit}</p><p>4 水平对齐 {text-align:left|right|center|justify}</p><p>5 垂直对齐 {vertical-align:inherit|top|bottom|text-top|text-bottom|baseline|middle|sub|super}</p><p>6 书写方式 {writing-mode:lr-tb|tb-rl}</p><p>背景样式</p><p>序号 中文说明 标记语法</p><p>1 背景颜色 {background-color:数值}</p><p>2 背景图片 {background-image: url(URL)|none}</p><p>3 背景重复 {background-repeat:inherit|no-repeat|repeat|repeat-x|repeat-y}</p><p>4 背景固定 {background-attachment:fixed|scroll}</p><p>5 背景定位 {background-position:数值|top|bottom|left|right|center}</p><p>6 背影样式 {background:背景颜色|背景图象|背景重复|背景附件|背景位置}</p><h3 id="框架样式-Box-Style"><a href="#框架样式-Box-Style" class="headerlink" title="框架样式(Box Style)"></a>框架样式(Box Style)</h3><p>序号 中文说明 标记语法</p><p>1 边界留白 {margin:margin-top margin-right margin-bottom margin-left}</p><p>2 补　　白 {padding:padding-top padding-right padding-bottom padding-left}</p><p>3 边框宽度 {border-width:border-top-width border-right-width border-bottom-width border-left-width}　　</p><p>宽度值： thin|medium|thick|数值</p><p>4 边框颜色 {border-color:数值 数值 数值 数值}　　数值：分别代表top、right、bottom、left颜色值</p><p>5 边框风格 {border-style:none|hidden|inherit|dashed|solid|double|inset|outset|ridge|groove}</p><p>6 边　　框 {border:border-width border-style color}</p><p>上 边 框 {border-top:border-top-width border-style color}</p><p>右 边 框 {border-right:border-right-width border-style color}</p><p>下 边 框 {border-bottom:border-bottom-width border-style color}</p><p>左 边 框 {border-left:border-left-width border-style color}</p><p>7 宽　　度 {width:长度|百分比| auto}</p><p>8 高　　度 {height:数值|auto}</p><p>9 漂　　浮 {float:left|right|none}</p><p>10 清　　除 {clear:none|left|right|both}</p><h3 id="分类列表"><a href="#分类列表" class="headerlink" title="分类列表"></a>分类列表</h3><p>序号 中文说明 标记语法</p><p>1 控制显示 {display:none|block|inline|list-item}</p><p>2 控制空白 {white-space:normal|pre|nowarp}</p><p>3 符号列表 {list-style-type:disc|circle|square|decimal|lower-roman|upper-roman|lower-alpha|upper-alpha|none}</p><p>4 图形列表 {list-style-image:URL}</p><p>5 位置列表 {list-style-position:inside|outside}</p><p>6 目录列表 {list-style:目录样式类型|目录样式位置|url}</p><p>7 鼠标形状 {cursor:hand|crosshair|text|wait|move|help|e-resize|nw-resize|w-resize|s-resize|se-resize|sw-resize}</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CSS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HTML表单标签</title>
+      <link href="/2021/11/29/HTML2/"/>
+      <url>/2021/11/29/HTML2/</url>
+      
+        <content type="html"><![CDATA[<h2 id="表单域"><a href="#表单域" class="headerlink" title="表单域"></a>表单域</h2><p>表单域是一个包含表单元素的区域</p><p>在HTML标签中，<code>&lt;form&gt;</code>标签用于定义表单域，以实现用户信息收集和传递。</p><p><code>&lt;form&gt;</code>会把它范围内的表单元素信息提交给服务器。</p><p>语法规范：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">&quot;url地址&quot;</span> <span class="attr">method</span>=<span class="string">&quot;提交方式&quot;</span> <span class="attr">name</span>=<span class="string">&quot;表单域名称&quot;</span>&gt;</span></span><br><span class="line">各种表单元素控件</span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br></pre></td></tr></table></figure><p><strong>常用属性</strong></p><table><thead><tr><th>属性</th><th>属性值</th><th>作用</th></tr></thead><tbody><tr><td>action</td><td>url地址</td><td>用于指定接收并处理表单数据的服务器出现的url地址</td></tr><tr><td>method</td><td>get/post</td><td>用于设置表单数据提交方式，其取值为get或post</td></tr><tr><td>name</td><td>名称</td><td>用于指定表单的名称，以区分同一个页面中的多个表单域</td></tr></tbody></table><ul><li>表单域就是<code>&lt;form&gt;</code>标签</li></ul><h2 id="表单标签"><a href="#表单标签" class="headerlink" title="表单标签"></a>表单标签</h2><h3 id="表单控件"><a href="#表单控件" class="headerlink" title="表单控件"></a>表单控件</h3><h4 id="input-输入表单元素"><a href="#input-输入表单元素" class="headerlink" title="input 输入表单元素"></a>input 输入表单元素</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">语法规范</span><br><span class="line">&lt;input type=&quot;属性值&quot; /&gt;   （根据不同的type属性值，输入字段拥有很多种形式）例如：文本字段、复选框、按钮等等</span><br></pre></td></tr></table></figure><ul><li><code>&lt;input&gt;</code>标签为单标签</li><li>type 属性设置不同的属性用来指定不同的控件类型</li></ul><p>type属性的属性值以其描述如下：</p><table><thead><tr><th>属性值</th><th>描述</th></tr></thead><tbody><tr><td>button</td><td>定义可点击按钮（多数情况下，用于通过JavaScript启动脚本）</td></tr><tr><td>checkbok</td><td>定义复选框</td></tr><tr><td>file</td><td>定义输入字段和“浏览”按钮，供文件上传</td></tr><tr><td>hidden</td><td>定义隐藏的输入字段</td></tr><tr><td>image</td><td>定义图像形式的提交按钮</td></tr><tr><td>password</td><td>定义密码字段，该字段中的字符被掩码</td></tr><tr><td>radio</td><td>定义单选按钮</td></tr><tr><td>reset</td><td>定义重置按钮，重置按钮会清除表单中的所有数据</td></tr><tr><td>submit</td><td>定义提交按钮，提交按钮会把表单数据发送到服务器</td></tr><tr><td>text</td><td>定义单行的输入字段，用户可在其中输入文本，默认宽度为20个字符</td></tr></tbody></table><p><code>&lt;input&gt;</code>表单元素</p><p>除type属性外，<code>&lt;input&gt;</code>标签还有其他很多属性，其常用属性如下：</p><table><thead><tr><th>属性</th><th>属性值</th><th>描述</th></tr></thead><tbody><tr><td>name</td><td>由用户自定义</td><td>定义input元素的名称</td></tr><tr><td>value</td><td>由用户自定义</td><td>规定input元素值</td></tr><tr><td>checked</td><td>checked</td><td>规定此input元素首次加载时应当被选中</td></tr><tr><td>maxlength</td><td>正整数</td><td>规定输入字符的最大长度</td></tr></tbody></table><ul><li>name和value 是每个表单元素都有的属性值，主要是给后台人员使用</li><li>name 表单元素的名字，要求 <strong>单选按钮和复选框都要有相同的name值</strong></li><li><strong>checked属性主要针对于单选按钮和复选框</strong>，主要作用一打开页面，就可以默认选中某个表单元素</li><li>maxlength是用户可以在表单元素输入的最大字符数，一般较少使用</li></ul><h4 id="lt-label-gt-标签"><a href="#lt-label-gt-标签" class="headerlink" title="&lt;label&gt;标签"></a><code>&lt;label&gt;</code>标签</h4><p><code>&lt;label&gt;</code>标签用于绑定一个表单元素，当点击<code>&lt;label&gt;</code>标签内的文本时，浏览器就会自动将焦点（光标）转到或者选择对应的表单元素上，用来增加用户体验</p><p>使用语法：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">&quot;sex&quot;</span>&gt;</span>男<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;radio&quot;</span> <span class="attr">name</span>=<span class="string">&quot;sex&quot;</span> <span class="attr">id</span>=<span class="string">&quot;sex&quot;</span></span></span><br></pre></td></tr></table></figure><p>核心：**<code>&lt;label&gt;</code>标签的 for属性 应当与相关元素的id属性相同**</p><h4 id="select-下拉表单元素"><a href="#select-下拉表单元素" class="headerlink" title=".select 下拉表单元素"></a>.select 下拉表单元素</h4><p>语法规范：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">select</span>&gt;</span>  //选择</span><br><span class="line"><span class="tag">&lt;<span class="name">option</span>&gt;</span>选项一<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">option</span>&gt;</span>选项二<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">option</span>&gt;</span>选项三<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">....</span><br><span class="line"><span class="tag">&lt;/<span class="name">srlect</span>&gt;</span></span><br></pre></td></tr></table></figure><ul><li><code>&lt;select&gt;</code>中至少包含一对<code>&lt;option&gt;</code></li><li>在<code>&lt;option&gt;</code>中定义seleced=”selected”时，当前项即为默认选中项</li></ul><h4 id="textarea-文本域元素"><a href="#textarea-文本域元素" class="headerlink" title="textarea 文本域元素"></a>textarea 文本域元素</h4><p> 使用场景：当用户输入内容较多的情况下，我们就不能使用文本框表单了，此时我们可以使用<code>&lt;textarea&gt;</code>标签</p><p>在表单元素中，<code>&lt;textarea&gt;</code>标签是用于定义多行文本输入控件</p><p>语法规范：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">textarea</span> <span class="attr">rows</span>=<span class="string">&quot;3&quot;</span> <span class="attr">cols</span>=<span class="string">&quot;20&quot;</span>&gt;</span> </span><br><span class="line">    文本内容</span><br><span class="line"><span class="tag">&lt;/<span class="name">textarea</span>&gt;</span></span><br></pre></td></tr></table></figure><ul><li>通过<code>&lt;textarea&gt;</code>标签可以轻松创建多行文本输入框</li><li>cols=”每行中的字符” ，rows=”显示的行数”，我们在时间开发中不会使用，都是使用css来改变大小的</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 表单 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>国内提高 Github 访问速度的方法</title>
+      <link href="/2021/11/29/Github/"/>
+      <url>/2021/11/29/Github/</url>
+      
+        <content type="html"><![CDATA[<p>It has been 442 days since the last update, the content of the article may be outdated.</p><h2 id="Github-镜像访问"><a href="#Github-镜像访问" class="headerlink" title="Github 镜像访问"></a>Github 镜像访问</h2><p>两个常用的镜像地址：</p><ul><li><a href="https://github.com.cnpmjs.org/">https://github.com.cnpmjs.org</a></li><li><a href="https://hub.fastgit.org/">https://hub.fastgit.org</a></li></ul><p>上面的地址就是克隆版的 <code>Github</code>，网站的内容和 <code>Github</code> 的内容是一样的，然后在这个网站里面进行下载克隆等操作。</p><h2 id="Github-文件加速"><a href="#Github-文件加速" class="headerlink" title="Github 文件加速"></a>Github 文件加速</h2><p>利用 <code>Cloudflare Workers</code> 对 <code>github release</code> 、<code>archive</code> 以及项目文件进行加速，部署无需服务器且自带 <code>CDN</code></p><ul><li><a href="https://gh.api.99988866.xyz/">https://gh.api.99988866.xyz</a></li><li><a href="https://g.ioiox.com/">https://g.ioiox.com</a></li></ul><p>以上网站为演示站点，如无法打开可以查看开源项目：<a href="https://hunsh.net/archives/23/">gh-proxy-GitHub</a> 文件加速自行部署。</p><h2 id="Github-加速下载"><a href="#Github-加速下载" class="headerlink" title="Github 加速下载"></a>Github 加速下载</h2><p>只需要复制当前 <code>GitHub</code> 地址粘贴到输入框中就可以代理加速下载</p><p>地址：<a href="http://toolwa.com/github/">http://toolwa.com/github/</a></p><h2 id="谷歌浏览器-Github-加速插件"><a href="#谷歌浏览器-Github-加速插件" class="headerlink" title="谷歌浏览器 Github 加速插件"></a>谷歌浏览器 Github 加速插件</h2><p><a href="https://chrome.zzzmh.cn/info?token=mfnkflidjnladnkldfonnaicljppahpg">插件地址</a></p><h2 id="加速你的-Github"><a href="#加速你的-Github" class="headerlink" title="加速你的 Github"></a>加速你的 Github</h2><p><a href="https://github.zhlh6.cn,输入/">https://github.zhlh6.cn，输入</a> <code>Github</code> 仓库地址，使用生成的地址进行 <code>git</code>, <code>ssh</code> 等操作</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HTML列表标签</title>
+      <link href="/2021/11/29/HTML4/"/>
+      <url>/2021/11/29/HTML4/</url>
+      
+        <content type="html"><![CDATA[<h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><p><code>&lt;ul&gt;</code>标签表示HTML页面中项目的无序列表，一般会以项目符号呈现列表项，而列表项使用<code>&lt;li&gt;</code>标签定义。</p><p>无序列表的基本语法格式：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;ul&gt;</span><br><span class="line">&lt;li&gt;列表项1&lt;/li&gt;</span><br><span class="line">&lt;li&gt;列表项2&lt;/li&gt;</span><br><span class="line">&lt;li&gt;列表项3&lt;/li&gt;</span><br><span class="line">...</span><br><span class="line">&lt;/ul&gt;</span><br></pre></td></tr></table></figure><ul><li><p><code>&lt;ul&gt;</code>标签里面只能出现<code>&lt;li&gt;</code>标签</p></li><li><p><code>&lt;li&gt;</code>标签里面可以放任何标签</p></li><li><p>无序列表带有自己的样式属性，但实际使用时，我们会使用CSS来设置</p></li></ul><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><p><code>&lt;ol&gt;</code>标签用于定义有序列表，列表排序以数字来显示，并且使用<code>&lt;li&gt;</code>标签来定义列表项。</p><p>有序列表的基本语法如下:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;ol&gt;</span><br><span class="line">&lt;li&gt;列表项&lt;/li&gt;</span><br><span class="line">&lt;li&gt;列表项&lt;/li&gt;</span><br><span class="line">&lt;li&gt;列表项&lt;/li&gt;</span><br><span class="line">...</span><br><span class="line">&lt;/ol&gt;</span><br></pre></td></tr></table></figure><h3 id="自定义列表"><a href="#自定义列表" class="headerlink" title="自定义列表"></a>自定义列表</h3><p>在HTML标签中，<code>&lt;dl&gt;</code>标签用于定义描述列表（或定义列表），该标签会与<code>&lt;dt&gt;</code>(定义项目/名字)和<code>&lt;dd&gt;</code>(描述每一个项目/名字)一起使用</p><p>自定义列表的基本语法如下：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;dl&gt;</span><br><span class="line">&lt;dt&gt;标题&lt;/dt&gt;</span><br><span class="line">&lt;dd&gt;项目一&lt;/dd&gt;</span><br><span class="line">&lt;dd&gt;项目二&lt;/dd&gt;</span><br><span class="line">&lt;dd&gt;项目三&lt;/dd&gt;</span><br><span class="line">&lt;/dl&gt;</span><br></pre></td></tr></table></figure><p><strong>注意</strong></p><ul><li><p><code>&lt;dl&gt;&lt;/dl&gt;</code>里面只能包含<code>&lt;dt&gt;</code>和<code>&lt;dd&gt;</code></p></li><li><p><code>&lt;dt&gt;</code>和<code>&lt;dd&gt;</code>个数没有限制，经常是一个<code>&lt;dt&gt;</code>对应多个<code>&lt;dd&gt;</code></p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 列表 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>让 Typecho 支持 QQ 头像</title>
+      <link href="/2021/11/29/TypechoQQ/"/>
+      <url>/2021/11/29/TypechoQQ/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Typecho 使用的是 Gravatar 作为用户的头像，但是大部分用户都没有设置 Gravatar 头像，而且 Gravatar 在国内访问速度感人，大大影响了用户体验和站点速度。</p><h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><p>让数字 QQ 邮箱显示 QQ 头像，非数字 QQ 邮箱使用 Gravatar 国内镜像加快速度。</p><h1 id="修改文件"><a href="#修改文件" class="headerlink" title="修改文件"></a>修改文件</h1><p>在 typecho 根目录 /var/Typecho/Common.php 文件，注释掉大约在第 1010 行至第 1028 行的代码</p><pre><code>/**public static function gravatarUrl($mail, $size, $rating, $default, $isSecure = false)&#123;……return $url;&#125;**/</code></pre><p>在其下方添加以下 php 代码</p><pre><code>public static function gravatarUrl($mail, $size, $rating, $default, $isSecure = false)&#123;  $reg = &quot;/^\d&#123;5,11&#125;@[qQ][Qq]\.(com)$/&quot;;  if (preg_match($reg, $mail)) &#123;    $img    = explode(&quot;@&quot;, $mail);    $url = &quot;//q2.qlogo.cn/headimg_dl?dst_uin=&#123;$img[0]&#125;&amp;spec=100&quot;;  &#125; else &#123;    if (defined(&#39;__TYPECHO_GRAVATAR_PREFIX__&#39;)) &#123;      $url = __TYPECHO_GRAVATAR_PREFIX__;    &#125; else &#123;      $url = $isSecure ? &#39;https://gravatar.loli.net&#39; : &#39;http://gravatar.loli.net&#39;;      $url .= &#39;/avatar/&#39;;    &#125;    if (!empty($mail)) &#123;      $url .= md5(strtolower(trim($mail)));    &#125;    $url .= &#39;?s=&#39; . $size;    $url .= &#39;&amp;amp;r=&#39; . $rating;    $url .= &#39;&amp;amp;d=&#39; . $default;  &#125;  return $url;&#125; </code></pre><p>现在 Typecho 全局支持数字 QQ 邮箱显示 QQ 头像了，Gravatar 使用国内镜像源。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Typecho </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>百度统计被刷广告解决方法</title>
+      <link href="/2021/11/29/baidu/"/>
+      <url>/2021/11/29/baidu/</url>
+      
+        <content type="html"><![CDATA[<p><strong>各位站长可能会遇到统计后台来源有广告的烦恼，经过阅读大佬的教程，提供一个解决方法。</strong></p><h2 id="以百度统计为例："><a href="#以百度统计为例：" class="headerlink" title="以百度统计为例："></a>以百度统计为例：</h2><ol><li>进入百度统计删除统计站点，添加新的统计，这步是为了更换统计代码的 ID</li><li>去百度搜索关键词 “JS 加密”，进入一个 JS 加密的站点</li><li>加密新获取到的百度统计代码，然后放入网站代码里面即可</li></ol><p>这个方法适用于同类型的统计，对于直接引用外部 JS 文件的统计暂时没找到解决方法。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 百度 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于博客的杂谈</title>
+      <link href="/2021/11/29/blog1/"/>
+      <url>/2021/11/29/blog1/</url>
+      
+        <content type="html"><![CDATA[<ul><li>前几日在 <a href="https://blog.lkurococ.top/go/aHR0cHM6Ly93d3cud3p5ZHQuY24v">@蚊子有点疼</a> 看到一篇 「<a href="https://blog.lkurococ.top/go/aHR0cHM6Ly93d3cud3p5ZHQuY24vaW5kZXgucGhwL2FyY2hpdmVzLzI0My8">为什么不发朋友圈而选择在自己的博客</a>」，当时就深有感触，也想仔细谈谈自己关于这个的看法，为什么在社交并不贫乏的时代，我会选择维护、运营一个完全没有盈利目的的博客。 </li></ul><h3 id="初心"><a href="#初心" class="headerlink" title="初心"></a>初心</h3><p><strong>最初搭建这个博客，目的并非获得多少多少的流量、曝光，亦是非要在网络上分享一切假大空的观点，亦或是想通过这个博客得到什么盈利或其他。如大家能看到的那样，我没有放置任何打赏码在任何页面，也并未在任何地方添加广告，初心便是想在无际的互联网中，保有一块“自留地”。当然也并非批评或是轻蔑、轻视那些放置有打赏码、广告的他人，他们大多是在 GitHub 上进行着无私的贡献，或是将运营网站、博客作为赚钱的渠道、副业，这是他们的选择，也是他们的应得</strong></p><p><strong>在这块“自留地”中，我既不会输出自己的价值观，也可能不会时事评论，更多的应该只是单纯属于自己的分享、记录，或是展示一些可能因以为傲的东西吧。当然，自己的这些内容亦是废话，要是能给别人带来点什么，只要不是不友善的东西，那就再好不过了。</strong></p><h3 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h3><p><strong>曾经，也向曾经的她说起过：“要是我有足够的钱，我一定会捐一部分去力所能及的帮助别人。”这种想法可能是从我还在家母肚子到现在一直被 <strong>Michael Joseph Jackson</strong>（以下简称 MJJ） 影响而来的吧。MJJ 五岁出道，没有童年，失去自由。父亲暴虐，兄弟嫉妒，朋友背弃，前妻反咬，最终欠下巨款，颠沛流离；被自己救助的孩子告上法院，被万恶的媒体取名为怪物，被私人医生夺走生命。他有遗传性白癜风，红斑狼疮，因为演艺意外导致头皮烧伤背部永久疼痛，并因此难以入睡而不得不依靠药物治疗，无良医生直接用麻醉剂让他昏死过去只是最后一次，他没能醒来。然后，在他逝世之前，他已习以为常，他们没法伤害到他。他的一生就像本史诗悲剧叫人不忍猝读，但同时，他的一生也是茫茫人生中的一座高塔，也埋下了无数希望的种子。他曾说：</strong></p><ul><li><strong>When other men had their Ferrari,either they have their little vision airplane or a helicopter or whatever they find. Wherever they find their bliss,and my bliss is giving and sharing and having simple innocent fun.</strong></li><li><strong>Because I’m doing something that bring joy and happiness to other people.</strong></li></ul><p><strong>目前虽然我不能给予，但是一定意义上的分享也是不错的。希望也能早日给他人带来快乐和幸福。现在在博客上面的分享，也是很狭义，很有限的分享。但是，我不认为这是一个不乐观的事，毕竟可以帮助我保持分享的习惯，以便在有需要的时候，能给别人提供或多或少人道主义的援助。</strong></p><p><strong>但是，为什么不入驻自媒体平台，亦或是在诸如 QQ空间 、微信朋友圈这样的地方，进行熟人社交呢？</strong></p><p><strong>入驻他人的平台，就不得不去遵守他人的规定，会有着诸多恼人的限制。可能并不会存在违法违规内容，但是总有奇怪的汉字组合或许会触发别人的敏感词屏蔽，或者诸如此类的限制表达。不得不想起前段时间央视痛批伞兵及这类谐音的屏蔽词，正是在严格的互联网监管之下，越来越多屏蔽词的产生造成了谐音梗的滥用。</strong></p><p><strong>在熟人社交中发声，如果只是记录生活，那也是不错的选择。然而，在这类熟人社交中，又有多少人是在人为、刻意地运营自己的人设呢？如果单纯的像我这种以分享为核心，又有多少人会对我产生认同感呢？</strong></p><p><strong>在这种思考下，博客似乎成为了最佳解。排除了鱼龙混杂，排除了熟人社交，仅仅是在进行着分享、吐露平时不敢在熟人社交平台吐露的心声。</strong></p><p><img src="https://pic.imgdb.cn/item/610e24315132923bf80ba964.jpg" alt="alt"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 闲谈 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>端口聚合</title>
+      <link href="/2021/11/29/dk/"/>
+      <url>/2021/11/29/dk/</url>
+      
+        <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><ul><li>在如下场景中，为了可以满足来自多条链路的流量，交换机之间必须具有更高的带宽</li><li>可以增加交换机之间的物理链路数量，以提高交换机之间通信的总体速度</li><li>但一般情况下交换机会启用 STP，阻塞冗余链路，以防环路出现</li></ul><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><ul><li>链路聚合又称端口聚合（Aggregate-port），是把交换机多个特性相同的端口物理捆绑为一个逻辑端口</li><li>聚合标准：IEEE 802.3ad</li><li>聚合优点：<br>扩展链路带宽；<br>实现成员端口上的流量平衡；<br>自动链路冗余备份；</li></ul><h2 id="端口聚合的流量平衡"><a href="#端口聚合的流量平衡" class="headerlink" title="端口聚合的流量平衡"></a>端口聚合的流量平衡</h2><ul><li>流量平衡：把流量平均地分配到 AP 的成员链路中去</li><li>流量平衡方式：</li><li>  1、根据源 MAC 地址</li><li>  2、根据目的 MAC 地址</li><li>  3、根据源 IP 地址</li><li>  4、根据目的 IP 地址</li><li>  5、根据源、目标 MAC 地址</li><li>  6、根据源、目标 IP 地址</li><li>不同设备的流量平衡方式可以不同</li></ul><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ul><li>AP 成员端口的速率必须一致</li><li>AP 成员端口必须属于同一个 VLAN</li><li>AP 成员端口使用的传输介质应相同</li><li>缺省情况下创建的 Aggregate Port 是二层 AP</li><li>1、二层端口只能加入二层 AP</li><li>2、三层端口只能加入三层 AP</li><li>AP 不能设置端口安全功能</li><li>当把端口加入一个不存在的 AP 时，AP 会被自动创建</li><li>一个端口加入 AP，端口的属性将被 AP 的属性所取代</li><li>一个端口从 AP 中删除，则端口的属性将恢复为其加入 AP 前的属性</li><li>当一个端口加入 AP 后，不能在该端口上进行任何配置，直到该端口退出 AP</li></ul><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>创建端口聚合组</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Swtich(config)#interface aggregateport [aggregate-port-number] </span><br><span class="line"></span><br><span class="line">aggregate-port-number聚合链路ID，本地有效</span><br></pre></td></tr></table></figure><p>将接口加入端口聚合组</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Switch(config)#interface range &#123;port-range&#125;</span><br><span class="line">Switch(config-if-range)# port-group [aggregate-port-number] </span><br><span class="line">注意：如果这个端口聚合组不存在，则同时创建这个端口聚合组 </span><br></pre></td></tr></table></figure><p>将接口从端口聚合组删除</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Switch(config-if)# no port-group </span><br></pre></td></tr></table></figure><p>将端口聚合组设置为三层接口</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Switch(config)#interface aggregateport [aggregate-port-number] </span><br><span class="line">Switch(config-if)#no switchport </span><br><span class="line">Switch(config-if)#ip address ip-address mask </span><br></pre></td></tr></table></figure><p>配置流量平衡</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Switch (config)#aggregateport load-balance &#123;dst-mac|src-mac|src-dst-mac|dst-ip|src-ip|ip &#125;</span><br><span class="line">注意：不同型号交换机支持的流量平衡算法可能会不同 </span><br><span class="line">查看端口聚合配置</span><br></pre></td></tr></table></figure><p>查看端口聚合配置</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Switch# show aggregateport [aggregate-port-number] &#123;load-balance |summary&#125;</span><br><span class="line">Switch# show interface aggregateport [aggregate-port-number] </span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 端口 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>每个人心中都有一个创业梦</title>
+      <link href="/2021/11/29/cy/"/>
+      <url>/2021/11/29/cy/</url>
+      
+        <content type="html"><![CDATA[<h4 id="每个人都有一个属于自己的创业梦-不管实现与否-成败与否-都是我们人生当中最宝贵的一段记忆-你的创业梦-你还记得吗-可曾实现了？？"><a href="#每个人都有一个属于自己的创业梦-不管实现与否-成败与否-都是我们人生当中最宝贵的一段记忆-你的创业梦-你还记得吗-可曾实现了？？" class="headerlink" title="每个人都有一个属于自己的创业梦 不管实现与否 成败与否 都是我们人生当中最宝贵的一段记忆 你的创业梦 你还记得吗 可曾实现了？？"></a>每个人都有一个属于自己的创业梦 不管实现与否 成败与否 都是我们人生当中最宝贵的一段记忆 你的创业梦 你还记得吗 可曾实现了？？</h4><p><img src="https://pic.imgdb.cn/item/611779015132923bf83aa055.jpg" alt="alt"></p><h4 id="每人心中都有一个创业梦"><a href="#每人心中都有一个创业梦" class="headerlink" title="每人心中都有一个创业梦"></a>每人心中都有一个创业梦</h4><p>对于创业而言，其实每个人都曾有过这样的想法，然而创业对于很多人来说只是停留在想想而已，世界每年都有很多人创业，然而据不完全统计，中国的创业失败概率最高，为何中国会有这么多人去创业，然而失败率会有这么高呢？主要还是创业的初衷和创业心态决定的，很多人会觉得创业是需要有投入和策略的，我经常会对这样的人说，什么时候你能做好准备？然而很多人对于这句话的回答理解是启动资金，项目规划，资源构成，个人能力及经验，创业团队，渠道客户来源等这些问题。其实很多人看到的是作为一个老板的外表光鲜及华丽，却未曾体验和回看当年这些企业家的艰辛与拼搏，如果当年马老板没有遇到那个孙正义个人投资，那还是马老板么？那为何会投他呢？真的是因为模式好？有潜力？其实不是，是他的鉴定信念和他的创意情怀给了孙正义一颗定心丸。所以创业并不是所有人都适合的，你没有做好一如反顾坚定信念，你没有做好仁者爱人的精神和目标清晰的顽强创业情怀，即时你有好的模式和创意也不会成功的。</p><h4 id="我的经历"><a href="#我的经历" class="headerlink" title="我的经历"></a>我的经历</h4><p>说起来我的经历那也是波澜起伏，我初中的时候就开始玩网，那时候觉得网络这个东西特别新鲜，于是我对网络产生了浓厚的兴趣。那时候，“卡盟”的横空出世，激起了不少 00 后对网络的热爱，也使很多 00 后赚到了人生的第一桶金。</p><p>说说我自己吧，，2018 年 9 月辍学，在中移铁通公司里工作了一年，由于刚步入社会不了解人情世故，懂得了人心的可怕，于 2019 年 9 月离职；在同年的 7 月份创立辰锡网络工作室，至今已经稳定运营 2 年了。2020 年 5 月回到学校复习参加高考，考入了一所一般般的大专，算是圆了自己的大学梦。2021 年 7 月自己创立一家公司，”拾小染网络科技（上海）有限责任公司，终于圆了自己的一个创业梦</p><h4 id="我的建议"><a href="#我的建议" class="headerlink" title="我的建议"></a>我的建议</h4><p>给每个创业者的建议是，做好死的准备，学习成功人士的格局和视野，总结别人失败的原因，多和正能量，优秀的人走在一起，寻找自己的路，路是走出来的，团队也是路上不断修行遇到的。 所有的选择都是你人生最好的选择。准备好了，你可以来找我。</p><p><img src="https://pic.imgdb.cn/item/611779015132923bf83aa079.jpg" alt="alt"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 闲谈 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 创业 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>工作总结</title>
+      <link href="/2021/11/29/gz/"/>
+      <url>/2021/11/29/gz/</url>
+      
+        <content type="html"><![CDATA[<h1 id="注意总结与反馈"><a href="#注意总结与反馈" class="headerlink" title="注意总结与反馈"></a>注意总结与反馈</h1><p>去任何一家公司都会遇到很多新鲜的知识，很多新鲜的内容，所以日常的学习过程中需要及时总结笔记，作为备忘。每个人都不可能纯凭记忆记住很多东西，所以日常的学习中，需要及时总结，也方便未来的梳理。</p><p>所谓的反馈，也就是展示自我，你要清楚的让上级知道你现在在做什么，会什么，有什么能力。也就是说，主动展示自我，主动秀出自己。通过这个，一来证明自己的能力，不是在那边混日子。二来也是一种资源的获取，上级懂的永远比你多，通过这种方式，可以要求到更多的学习资源。</p><h1 id="不断学习进步"><a href="#不断学习进步" class="headerlink" title="不断学习进步"></a>不断学习进步</h1><p>对于一个开发人员而言，你需要不断学习，因为这个世界上有着太多的牛人和技术。很多时候，你都会有瓶颈（自己的舒适区）。的确，现有的知识和能力足矣满足你的工作需求和未来的开发。</p><p>所以，要时刻惊醒，多去主动学习。</p><h1 id="问题处理与解决"><a href="#问题处理与解决" class="headerlink" title="问题处理与解决"></a>问题处理与解决</h1><p>解决一个问题时，首先把上下文弄清楚。</p><p>对于负责解决问题的人要做到：</p><p>明确问题提出的人是谁</p><p>确定问题描述清楚没有</p><p>及时将解决进度告诉大家</p><p>如果问题解决了，要通过更新Jira或者在相关讨论组讨论的方式，告诉大家问题原因、解决办法、遗留问题。如果问题解决不了，或者提问者说OK了，一定要追问发生了什么，或者是如何解决的。</p><p>整个问题的生命周期都要与大家分享出来，不能不明不白的就关闭一个issue。</p><p>提问者需要及时追踪问题进度。同时，我认为：无论是任何原因，只要一个issue被长时间搁置，那么这个问题优先级一定不高。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 闲谈 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工作 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>树莓派安装帅气的netdata监控工具</title>
+      <link href="/2021/11/29/netdata/"/>
+      <url>/2021/11/29/netdata/</url>
+      
+        <content type="html"><![CDATA[<h2 id="树莓派安装netdata"><a href="#树莓派安装netdata" class="headerlink" title="树莓派安装netdata"></a>树莓派安装netdata</h2><p>NetData 是一个用于系统和应用的分布式实时性能和健康监控工具。 界面ui也比较炫酷。</p><p>我这里就安装一下<code>netdata.</code></p><h4 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h4><p><code>sudo apt-get install zlib1g-dev uuid-dev libuv1-dev liblz4-dev libjudy-dev libssl-dev libmnl-dev gcc make git autoconf autoconf-archive autogen automake pkg-config curl</code></p><h4 id="安装汉化版本"><a href="#安装汉化版本" class="headerlink" title="安装汉化版本"></a>安装汉化版本</h4><ul><li><p>切换到<code>home cd ~</code></p></li><li><p>使用cdns的git服务器，没有科学上网的手段的小伙伴大可放心。</p></li><li><p><code>git clone https://codechina.csdn.net/mirrors/Fhaohaizi/netdata.git</code></p></li><li><p><code>cd netdata</code></p></li><li><p>给权限 <code>chmod +x netdata-installer.sh chmod +x netdata-installer-zh.sh</code></p></li><li><p>安装 <code>sudo ./netdata-installer.sh</code></p></li></ul><p><strong>启动和关闭</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># 停止</span><br><span class="line">systemctl stop netdata</span><br><span class="line"># 启动</span><br><span class="line">systemctl start netdata</span><br><span class="line"># 重启</span><br><span class="line"> systemctl restart netdata</span><br><span class="line"># 开机启动</span><br><span class="line"> systemctl enable netdata</span><br></pre></td></tr></table></figure><p><strong>开放19999 端口。</strong></p><h4 id="配置内网穿透，设置账号密码授权"><a href="#配置内网穿透，设置账号密码授权" class="headerlink" title="配置内网穿透，设置账号密码授权"></a>配置内网穿透，设置账号密码授权</h4><p>内网穿透 继续使用自己搭建的<code>frp</code> ，不了解的小伙伴可以翻我前面关于<code>frp</code>的文章。这里重点说明如何配置密码访问。</p><p>在服务器上配置nginx</p><p>内网穿透 继续使用自己搭建的<code>frp</code> ，不了解的小伙伴可以翻我前面关于<code>frp</code>的文章。这里重点说明如何配置密码访问。</p><p>在服务器上配置nginx</p><ul><li><p>创建存密码的目录 <code>sudo mkdir /etc/nginx/passwd</code></p></li><li><p>创建存密码的文件 <code>sudo touch /etc/nginx/passwd/htpasswd</code></p></li><li><p>创建 用户叫 <code>netdata</code> 的密码文件 <code>printf &quot;netdata:$(openssl passwd -apr1)&quot; &gt; /etc/nginx/passwd/htpasswd</code> 输入此命令后 输入两边密码。</p></li><li><p>新建nginx配置文件 , <code>sudo vi /etc/nginx/conf.d/netdata.conf</code></p></li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen 80;</span><br><span class="line">    # 域名</span><br><span class="line">    server_name netdata.yingwiki.top;</span><br><span class="line"> </span><br><span class="line">   auth_basic &quot;netdata Login&quot;;</span><br><span class="line">   #  上一步生成的密码文件路径</span><br><span class="line">   auth_basic_user_file /etc/nginx/passwd/htpasswd;</span><br><span class="line"> </span><br><span class="line">    location / &#123;</span><br><span class="line">        # 你的frp定义http端口和域名</span><br><span class="line">proxy_pass  http://netdata.yingwiki.top:8080;</span><br><span class="line">        proxy_set_header X-Forwarded-Host $host;</span><br><span class="line">        proxy_set_header X-Forwarded-Server $host;</span><br><span class="line">        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;</span><br><span class="line">        proxy_http_version 1.1;</span><br><span class="line">        proxy_pass_request_headers on;</span><br><span class="line">        proxy_set_header Connection &quot;keep-alive&quot;;</span><br><span class="line">        proxy_store off;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li><p><code>sudo nginx -t</code> 检查nginx配置</p></li><li><p><code>sudo nginx -s reload </code>没有问题重载配置</p></li></ul><h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>现在就可以输入<code> http://</code>域名 访问啦 ，我在这里就不配置 https的，需要的小伙伴自己改一下就好了。</p><p><img src="https://halo-yxq-1302651434.cos.ap-beijing.myqcloud.com/halo%E5%8D%9A%E5%AE%A2/netdata/image-20210208021126747.png" alt="alt"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 树莓派 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>script 标签的异步属性</title>
+      <link href="/2021/11/29/script/"/>
+      <url>/2021/11/29/script/</url>
+      
+        <content type="html"><![CDATA[<p>通常我为了防止 JS 阻塞页面加载，会把 script 标签放在 body 标签末尾。</p><h2 id="同步"><a href="#同步" class="headerlink" title="同步"></a>同步</h2><p>同步模式：又称阻塞模式，会阻止浏览器的后续执行，停止后续解析，只有当前加载完成才能进行下一步操作。</p><h2 id="异步"><a href="#异步" class="headerlink" title="异步"></a>异步</h2><p>异步模式：async 属性、defer 属性。</p><pre><code>&lt;script async&gt;&lt;/script&gt;&lt;script defer&gt;&lt;/script&gt;&lt;!-- OR --&gt;&lt;script async=&quot;true&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;true&quot;&gt;&lt;/script&gt;</code></pre><p>通过 createElement 创建的 script 标签其属性 async 默认为 true</p><p>给创建的 script 标签添加 defer 属性：</p><pre><code>var elm = document.createElement(&quot;script&quot;);elm.defer = true;</code></pre><p>defer 与 async 的区别：defer 要等到整个页面在内存中正常渲染结束（DOM 结构完全生成，以及其他脚本执行完成），才会执行；async 一旦下载完，渲染引擎就会中断渲染，执行这个脚本以后，再继续渲染。<br>defer 是 “渲染完再执行”，async 是 “下载完就执行”。<br>另外，如果有多个 defer 脚本，会按照它们在页面出现的顺序加载，并且多个 async 脚本是不能保证加载顺序的。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> script </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分享一款ssh工具——FinalShell</title>
+      <link href="/2021/11/29/ssh/"/>
+      <url>/2021/11/29/ssh/</url>
+      
+        <content type="html"><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>FinalShell是一体化的的服务器,网络管理软件,不仅是ssh客户端,还是功能强大的开发,运维工具,充分满足开发,运维需求.</p><hr><h2 id="特色功能"><a href="#特色功能" class="headerlink" title="特色功能"></a>特色功能</h2><p>免费海外服务器远程桌面加速,ssh加速,双边tcp加速,内网穿透.</p><hr><h2 id="主要特性"><a href="#主要特性" class="headerlink" title="主要特性"></a>主要特性</h2><p>1.多平台支持Windows,Mac OS X,Linux<br>2.多标签,批量服务器管理.<br>3.支持登录Ssh和Windows远程桌面.<br>4.漂亮的平滑字体显示,内置100多个配色方案.<br>5.终端,sftp同屏显示,同步切换目录.<br>6.命令自动提示,智能匹配,输入更快捷,方便.<br>7.sftp支持,通过各种优化技术,加载更快,切换,打开目录无需等待.<br>8.服务器网络,性能实时监控,无需安装服务器插件.<br>9.内置海外服务器加速,加速远程桌面和ssh连接,操作流畅无卡顿.<br>10.双边加速功能,大幅度提高访问服务器速度.<br>11.内存,Cpu性能监控,Ping延迟丢包,Trace路由监控(需要高级版支持).<br>12.实时硬盘监控.<br>13.进程管理器.<br>14.快捷命令面板,可同时显示数十个命令.<br>15.内置文本编辑器,支持语法高亮,代码折叠,搜索,替换.<br>16.ssh和远程桌面均支持代理服务器.<br>17.打包传输,自动压缩解压.<br>18.免费内网穿透,无需设置路由器,无需公网ip.<br>19.支持rz,sz (zmodem)</p><p>更多功能会逐步增加,保持最少每周一次更新的频率,敬请关注.</p><hr><h2 id="界面截图"><a href="#界面截图" class="headerlink" title="界面截图"></a>界面截图</h2><p>Shell终端</p><p><img src="https://pic.imgdb.cn/item/617abfee2ab3f51d9141836b.jpg" alt="演示截图"></p><hr><p><strong>下载链接：</strong></p><p><strong><a href="https://pan.baidu.com/share/init?surl=Xn4LaUyNFdDOpg0psK1mYA">https://pan.baidu.com/share/init?surl=Xn4LaUyNFdDOpg0psK1mYA</a></strong></p><p><strong>密码：3r3e</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SSH </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>网站访问速度优化</title>
+      <link href="/2021/11/29/%E7%BD%91%E7%AB%99%E8%AE%BF%E9%97%AE%E9%80%9F%E5%BA%A6%E4%BC%98%E5%8C%96/"/>
+      <url>/2021/11/29/%E7%BD%91%E7%AB%99%E8%AE%BF%E9%97%AE%E9%80%9F%E5%BA%A6%E4%BC%98%E5%8C%96/</url>
+      
+        <content type="html"><![CDATA[<p>本文借鉴<a href="https://blog.keepdai.cn/">呆逼の博客</a>丶<a href="https://akilar.top/">Akilarの糖果屋</a>整理而成，用于记录与学习。</p><h2 id="CDN-加速"><a href="#CDN-加速" class="headerlink" title="CDN 加速"></a>CDN 加速</h2><p>CDN怎么使用我这里就不讲了，这里记录一下相关的设置。</p><p>在访问控制这里找到ip访问限制和下行限速</p><p><a href="https://cdn.jsdelivr.net/gh/L-20021213/picture@1.0.2/img/20210718000914.png"><img src="https://cdn.jsdelivr.net/gh/L-20021213/picture@1.0.2/img/20210718000914.png" alt="img"></a></p><p><a href="https://cdn.jsdelivr.net/gh/L-20021213/picture@1.0.2/img/20210718000930.png"><img src="https://cdn.jsdelivr.net/gh/L-20021213/picture@1.0.2/img/20210718000930.png" alt="img"></a></p><p>在缓存配置里强烈推荐遵循源站,就是你原网站修改内容,他才会更新缓存。</p><p><a href="https://cdn.jsdelivr.net/gh/L-20021213/picture@1.0.2/img/20210718000944.png"><img src="https://cdn.jsdelivr.net/gh/L-20021213/picture@1.0.2/img/20210718000944.png" alt="img"></a></p><p>带宽建议设置成5-10m。</p><p><a href="https://cdn.jsdelivr.net/gh/L-20021213/picture@1.0.2/img/20210718001107.png"><img src="https://cdn.jsdelivr.net/gh/L-20021213/picture@1.0.2/img/20210718001107.png" alt="img"></a></p><h2 id="Gulp-压缩全站静态资源"><a href="#Gulp-压缩全站静态资源" class="headerlink" title="Gulp 压缩全站静态资源"></a>Gulp 压缩全站静态资源</h2><p><a href="https://www.gulpjs.com.cn/">gulp</a> 能够帮助用户自动压缩静态资源，配合各类下属插件，能够压缩包括 css、js、html 乃至各类格式的图片文件。</p><ul><li>安装 Gulp 插件：在博客根目录 <code>[Blogroot]</code> 打开终端，输入：</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">BASH</span><br><span class="line">npm install --global gulp-cli</span><br></pre></td></tr></table></figure><ul><li>安装各个下属插件以实现对各类静态资源的压缩。</li></ul><p>压缩 HTML：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">BASH</span><br><span class="line">npm install gulp-htmlclean --save-dev</span><br><span class="line">npm install gulp-html-minifier-terser --save-dev</span><br><span class="line"># 用gulp-html-minifier-terser可以压缩HTML中的ES6语法</span><br></pre></td></tr></table></figure><p>压缩 CSS：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">BASH</span><br><span class="line">npm install gulp-clean-css --save-dev</span><br></pre></td></tr></table></figure><p>压缩 JS：<br><a href="https://github.com/duan602728596/gulp-terser">gulp-terser</a> 只会直接压缩 js 代码，所以不存在因为语法变动导致的错误 。事实上，当我们使用 <code>jsdelivr</code> 的 <code>CDN</code> 服务时，只需要在 <code>css</code> 或者 <code>js</code> 的后缀前添加<code>.min</code>, 例如 <code>example.js-&gt;example.min.js</code>,<code>JsDelivr</code> 就会自动使用 <code>terser</code> 帮我们压缩好代码。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">BASH</span><br><span class="line">npm install gulp-terser --save-dev</span><br></pre></td></tr></table></figure><ul><li>为 Gulp 创建 <code>gulpfile.js</code> 任务脚本。在博客根目录 <code>[Blogroot]</code> 下新建 <code>gulpfile.js</code>, 打开 <code>[Blogroot]\gulpfile.js</code>, 输入以下内容：</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line">JS</span><br><span class="line"></span><br><span class="line">//用到的各个插件</span><br><span class="line">var gulp = require(&#x27;gulp&#x27;);</span><br><span class="line">var cleanCSS = require(&#x27;gulp-clean-css&#x27;);</span><br><span class="line">var htmlmin = require(&#x27;gulp-html-minifier-terser&#x27;);</span><br><span class="line">var htmlclean = require(&#x27;gulp-htmlclean&#x27;);</span><br><span class="line">// gulp-tester</span><br><span class="line">var terser = require(&#x27;gulp-terser&#x27;);</span><br><span class="line">// 压缩js</span><br><span class="line">gulp.task(&#x27;compress&#x27;, () =&gt;</span><br><span class="line">  gulp.src([&#x27;./public/**/*.js&#x27;, &#x27;!./public/**/*.min.js&#x27;])</span><br><span class="line">    .pipe(terser())</span><br><span class="line">    .pipe(gulp.dest(&#x27;./public&#x27;))</span><br><span class="line">)</span><br><span class="line">//压缩css</span><br><span class="line">gulp.task(&#x27;minify-css&#x27;, () =&gt; &#123;</span><br><span class="line">    return gulp.src([&#x27;./public/**/*.css&#x27;])</span><br><span class="line">        .pipe(cleanCSS(&#123;</span><br><span class="line">            compatibility: &#x27;ie11&#x27;</span><br><span class="line">        &#125;))</span><br><span class="line">        .pipe(gulp.dest(&#x27;./public&#x27;));</span><br><span class="line">&#125;);</span><br><span class="line">//压缩html</span><br><span class="line">gulp.task(&#x27;minify-html&#x27;, () =&gt; &#123;</span><br><span class="line">    return gulp.src(&#x27;./public/**/*.html&#x27;)</span><br><span class="line">        .pipe(htmlclean())</span><br><span class="line">        .pipe(htmlmin(&#123;</span><br><span class="line">            removeComments: true, //清除html注释</span><br><span class="line">            collapseWhitespace: true, //压缩html</span><br><span class="line">            collapseBooleanAttributes: true,</span><br><span class="line">            //省略布尔属性的值，例如：&lt;input checked=&quot;true&quot;/&gt; ==&gt; &lt;input /&gt;</span><br><span class="line">            removeEmptyAttributes: true,</span><br><span class="line">            //删除所有空格作属性值，例如：&lt;input id=&quot;&quot; /&gt; ==&gt; &lt;input /&gt;</span><br><span class="line">            removeScriptTypeAttributes: true,</span><br><span class="line">            //删除&lt;script&gt;的type=&quot;text/javascript&quot;</span><br><span class="line">            removeStyleLinkTypeAttributes: true,</span><br><span class="line">            //删除&lt;style&gt;和&lt;link&gt;的 type=&quot;text/css&quot;</span><br><span class="line">            minifyJS: true, //压缩页面 JS</span><br><span class="line">            minifyCSS: true, //压缩页面 CSS</span><br><span class="line">            minifyURLs: true  //压缩页面URL</span><br><span class="line">        &#125;))</span><br><span class="line">        .pipe(gulp.dest(&#x27;./public&#x27;))</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">// 运行gulp命令时依次执行以下任务</span><br><span class="line">gulp.task(&#x27;default&#x27;, gulp.parallel(</span><br><span class="line">  &#x27;compress&#x27;, &#x27;minify-css&#x27;, &#x27;minify-html&#x27;</span><br><span class="line">))</span><br></pre></td></tr></table></figure><ul><li>在每次运行完 <code>hexo generate</code> 生成静态页面后，运行 <code>gulp</code> 对其进行压缩。指令流程如下：</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">PLAINTEXT</span><br><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">gulp</span><br><span class="line">hexo server 或 hexo deploy</span><br></pre></td></tr></table></figure><ul><li>最后自动部署的朋友们确保本地运行成功后在<code>workflows</code>中添加<code>依赖</code>随后添加<code>gulp</code>触发压缩。<br>如图所示：<br><a href="https://cdn.jsdelivr.net/gh/L-20021213/picture@1.0.2/img/20210718003125.png"><img src="https://cdn.jsdelivr.net/gh/L-20021213/picture@1.0.2/img/20210718003125.png" alt="img"></a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>windows 通过资源管理器访问 ftp 出现 200,227 错误解决方案</title>
+      <link href="/2021/11/29/windows/"/>
+      <url>/2021/11/29/windows/</url>
+      
+        <content type="html"><![CDATA[<p>报错信息：<br><img src="https://cdn.tandongtao.com/usr/uploads/2021/08/2805416798.png?imageView2/2/w/1920/q/75/format/webp" alt="alt"><br>打开控制面板 —–》Internet 选项 —–》高级 —–》<br><img src="https://cdn.tandongtao.com/usr/uploads/2021/08/1185177858.png?imageView2/2/w/1920/q/75/format/webp" alt="alt"><br>使用被动 FTP 这一项取消勾选！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> windows </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HTML常用标签</title>
+      <link href="/2021/11/27/HTML1/"/>
+      <url>/2021/11/27/HTML1/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本"><a href="#基本" class="headerlink" title="基本"></a>基本</h3><p><code>&lt;html&gt;…&lt;/html&gt; </code>     定义 HTML 文档</p><p><code>&lt;head&gt;…&lt;/head&gt;</code>     文档的信息</p><p><code>&lt;meta&gt; </code>             HTML 文档的元信息</p><p><code>&lt;title&gt;…&lt;/title&gt;</code>       文档的标题</p><p><code>&lt;link&gt;</code>               文档与外部资源的关系</p><p><code>&lt;style&gt;…&lt;/style&gt;</code>     文档的样式信息</p><p><code>&lt;body&gt;…&lt;/body&gt;     可见的页面内容</code></p><!--…-->            注释<h3 id="文本"><a href="#文本" class="headerlink" title="文本"></a>文本</h3><p><code>&lt;h1&gt;...&lt;/h1&gt;</code>               标题字大小（h1~h6）</p><p><code>&lt;b&gt;...&lt;/b&gt;  </code>               粗体字</p><p><code>&lt;strong&gt;...&lt;/strong&gt; </code>       粗体字(强调) </p><p><code>&lt;i&gt;...&lt;/i&gt;</code>                   斜体字 </p><p><code>&lt;em&gt;...&lt;/em&gt; </code>             斜体字(强调)</p><p><code>&lt;u&gt;...&lt;/u&gt;</code>                 下划线</p><p><code>&lt;del&gt;...&lt;/del&gt; </code>             删除线(表示删除)</p><p><code>&lt;center&gt;…&lt;/center&gt;</code>        居中文本</p><p><code>&lt;ul&gt;…&lt;/ul&gt;</code>                无序列表 </p><p><code>&lt;ol&gt;…&lt;/ol&gt;</code>                有序列表</p><p><code>&lt;li&gt;…&lt;/li&gt;</code>                  列表项目</p><p><code>&lt;a href=”…”&gt;…&lt;/a&gt;</code>         超链接</p><p><code>&lt;font&gt; </code>                    定义文本字体尺寸、颜色、大小</p><p><code>&lt;sub&gt;</code>                     下标</p><p><code>&lt;sup&gt;</code>                     上标</p><p><code>&lt;br&gt; </code>                      换行</p><p><code>&lt;p&gt; </code>                       段落</p><h3 id="图形"><a href="#图形" class="headerlink" title="图形"></a>图形</h3><p><code>&lt;img src=’”…”&gt;</code>         定义图像</p><p><code>&lt;hr&gt;</code>                   水平线</p><h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p><code>&lt;table&gt;…&lt;/table&gt;</code>       定义表格</p><p><code>&lt;th&gt;…&lt;/th&gt;</code>            定义表格中的表头单元格</p><p><code>&lt;tr&gt;…&lt;/tr&gt;</code>             定义表格中的行</p><p><code>&lt;td&gt;…&lt;/td&gt; </code>          定义表格中的单元</p><h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><p><code>&lt;form&gt;…&lt;/form&gt;</code>       定义供用户输入的 HTML 表单</p><p><code>&lt;frame&gt; </code>              定义框架集的窗口或框架</p><p>16进制颜色(仅仅有16种颜色名可用英文字母，其余的要用16进制值)</p><p>aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, silver, teal, white, yellow</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> HTML </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HTML表格标签</title>
+      <link href="/2021/11/27/HTML3/"/>
+      <url>/2021/11/27/HTML3/</url>
+      
+        <content type="html"><![CDATA[<h4 id="表格标签结构"><a href="#表格标签结构" class="headerlink" title="表格标签结构"></a>表格标签结构</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;table&gt;&lt;/table&gt;  表格标签  （表格样式在“table”标签内设置）</span><br><span class="line">&lt;tr&gt;&lt;/tr&gt;  行标签</span><br><span class="line">&lt;th&gt;&lt;/th&gt;  表头单元格标签</span><br><span class="line">&lt;td&gt;&lt;/td&gt; 单元格标签</span><br><span class="line">（单元格里面可以放任何元素，文字链接图片等都可以）</span><br></pre></td></tr></table></figure><h4 id="表格结构标签"><a href="#表格结构标签" class="headerlink" title="表格结构标签"></a>表格结构标签</h4><p><code>&lt;thead&gt; </code>标签 表格的头部区域</p><p><code>&lt;tbody&gt;</code>标签 表格的主体区域</p><p><strong>实际用法</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">&lt;table align=&quot;center&quot; width=&quot;500&quot; height=&quot;249&quot; border=&quot;1&quot; cellspacing=&quot;0&quot;&gt; </span><br><span class="line">      &lt;thead&gt; &lt;!--表格头部标签--&gt;</span><br><span class="line">       &lt;tr&gt;</span><br><span class="line">           &lt;th&gt;排名&lt;/th&gt; </span><br><span class="line">           &lt;th&gt;关键词&lt;/th&gt;</span><br><span class="line">           &lt;th&gt;趋势&lt;/th&gt;</span><br><span class="line">           &lt;th&gt;今日搜索&lt;/th&gt;</span><br><span class="line">           &lt;th&gt;最近七日&lt;/th&gt; </span><br><span class="line">           &lt;th&gt; 相关链接&lt;/th&gt; </span><br><span class="line">       &lt;/tr&gt;</span><br><span class="line">   &lt;/thead&gt;</span><br><span class="line">   &lt;tbody&gt; &lt;!--表格主体标签--&gt;</span><br><span class="line">       &lt;tr&gt; </span><br><span class="line">           &lt;td&gt;1&lt;/td&gt; </span><br><span class="line">           &lt;td&gt;鬼吹灯&lt;/td&gt; </span><br><span class="line">           &lt;td&gt;&lt;/td&gt;</span><br><span class="line">           &lt;td&gt;345&lt;/td&gt; </span><br><span class="line">           &lt;td&gt;123&lt;/td&gt;</span><br><span class="line">           &lt;td&gt;&lt;a href=&quot;https://mxwl520.cn&quot;&gt;贴吧&lt;/a&gt; &lt;a href=&quot;https://mxwl520.cn&quot;&gt;图片&lt;/a&gt; &lt;a href=&quot;https://mxwl520.cn&quot;&gt;百科&lt;/a&gt;&lt;/td&gt;</span><br><span class="line">       &lt;/tr&gt;</span><br><span class="line"></span><br><span class="line">       &lt;tr&gt; </span><br><span class="line">           &lt;td&gt;2&lt;/td&gt; </span><br><span class="line">           &lt;td&gt;盗墓笔记&lt;/td&gt; </span><br><span class="line">           &lt;td&gt;&lt;/td&gt;</span><br><span class="line">           &lt;td&gt;124&lt;/td&gt; </span><br><span class="line">           &lt;td&gt;675432&lt;/td&gt;</span><br><span class="line">           &lt;td&gt;&lt;a href=&quot;https://mxwl520.cn&quot;&gt;贴吧&lt;/a&gt; &lt;a href=&quot;https://mxwl520.cn&quot;&gt;图片&lt;/a&gt; &lt;a href=&quot;https://mxwl520.cn&quot;&gt;百科&lt;/a&gt;&lt;/td&gt;</span><br><span class="line">       &lt;/tr&gt;</span><br><span class="line">   &lt;/tbody&gt;</span><br></pre></td></tr></table></figure><h4 id="表格属性标签"><a href="#表格属性标签" class="headerlink" title="表格属性标签"></a>表格属性标签</h4><p> border  边框标签</p><p>cellspacing 单元格与单元格之间的距离</p><p>roespan=”合并单元格的个数” 跨行合并</p><p>colspan=”合并单元格的个数” 跨列合并</p><p>写法<code>&lt;td colspan=&quot;2&quot;&gt;&lt;/td&gt;</code></p><table><thead><tr><th>属性名</th><th>属性值</th><th>描述</th></tr></thead><tbody><tr><td>align</td><td>left、center、right</td><td>规定表格相对周围元素的对齐方式borde</td></tr><tr><td>border</td><td>1或者“”</td><td>规定表格单元是否拥有边框，默认为“”，表示没有边框</td></tr><tr><td>cellpadding</td><td>像素值</td><td>规定单元边沿与其内容之间的空白，默认为1像素</td></tr><tr><td>cellspacing</td><td>像素值</td><td>规定单元格之间的空白，默认2像素</td></tr><tr><td>width</td><td>像素值或百分比</td><td>规定表格的宽度</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 表格 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Centos真机安装</title>
+      <link href="/2021/11/26/Centos/"/>
+      <url>/2021/11/26/Centos/</url>
+      
+        <content type="html"><![CDATA[<h2 id="材料准备"><a href="#材料准备" class="headerlink" title="材料准备"></a>材料准备</h2><p><a href="https://mirrors.aliyun.com/centos-vault/?spm=a2c6h.13651104.0.0.1e5712b2mZWPwz">阿里云 centos 镜像列表</a></p><p>启动引导制作工具，下载 UltraISO</p><h2 id="制作流程"><a href="#制作流程" class="headerlink" title="制作流程"></a>制作流程</h2><p>1 打开 UltraISO<br><img src="https://cdn.tandongtao.com/usr/uploads/2021/06/1625016471-image.png?imageView2/2/w/1920/q/75/format/webp" alt="alt"><br>2 打开下好的镜像</p><p>文件 -&gt; 打开 -&gt; 选择下好的镜像<br><img src="https://cdn.tandongtao.com/usr/uploads/2021/06/1625016574-image.png?imageView2/2/w/1920/q/75/format/webp" alt="alt"><br>3 写入 U 盘</p><p>点击启动 -&gt; 写入硬盘映像 -&gt; 格式化<br><img src="https://cdn.tandongtao.com/usr/uploads/2021/06/1625016815-image.png?imageView2/2/w/1920/q/75/format/webp" alt="alt"><br><img src="https://cdn.tandongtao.com/usr/uploads/2021/06/1625016862-image.png?imageView2/2/w/1920/q/75/format/webp" alt="alt"></p><h2 id="装机流程"><a href="#装机流程" class="headerlink" title="装机流程"></a>装机流程</h2><p>使用 [UEFI] 方式从 U 盘启动后，会进入到这个界面。?<br><img src="https://st.blackyau.net/blog/10/1.png" alt="alt"><br>按 e 编辑一下 (如果是使用 Legacy BIOS 启动，则按 tab 键)，将第一行的 <strong>linuxefi /images/pxeboot/vmlinuz inst.stage2=hd:…….</strong> ?<br><img src="https://st.blackyau.net/blog/10/2.png" alt="alt"><br>改为下面的 <strong>linuxefi /images/pxeboot/vmlinuz initrd=initrd.img linux dd quiet</strong> 这里是为了确定启动盘的 设备名 便于后续的安装。?<br><img src="https://st.blackyau.net/blog/10/3.png" alt="alt"><br>按下 <strong>Ctrl-x</strong> 后，等待片刻你就会在这里停下来。最好在这里拍个照记录一下，自己通过 <strong>LABEL</strong> 和 <strong>TYPE</strong> 记住 CentOS 启动盘的 设备名 。（下图是 sda4 ）?<br><img src="https://st.blackyau.net/blog/10/4.png" alt="alt"><br>按电源键重启计算机，还是从 U 盘启动。还是按 e 编辑一下，不过这次要把第一行修改为 <strong>linuxefi /images/pxeboot/vmlinuz inst.stage2=hd:/dev/设备名 quiet</strong>。（下图是 sda4 ）然后按下 <strong>Ctrl+x</strong> 进入安装向导。<br><img src="https://st.blackyau.net/blog/10/5.png" alt="alt"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Centos 阿里云 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ESXi 客户端 Web 界面会话超时</title>
+      <link href="/2021/11/24/ESXi%20/"/>
+      <url>/2021/11/24/ESXi%20/</url>
+      
+        <content type="html"><![CDATA[<p>主机客户端 Web 界面会话<strong>每 15 分钟自动超时一次</strong>，然后您必须再次重新登录 ESXi 主机客户端 Web 界面。<br>要避免这种繁琐的情况，可以 增加会话超时，从而更改 ESXi 主机客户端 Web 界面中的高级配置参数。</p><p>导航到主机 &gt; 管理 &gt; 系统 &gt; 高级设置，然后向右下滚搜索 <code>UserVars.HostClientSessionTimeout</code></p><p>将 “新值” 字段设置为 0，然后单击 “ 保存” 以使网页无限期打开。</p><p><img src="https://pic.imgdb.cn/item/6128cf8744eaada73999b0f2.png" alt="截图"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ESXi </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Sady.图床--我也有图床啦！</title>
-      <link href="/2021/11/22/Sady.%E5%9B%BE%E5%BA%8A--%E6%88%91%E4%B9%9F%E6%9C%89%E5%9B%BE%E5%BA%8A%E5%95%A6%EF%BC%81/"/>
-      <url>/2021/11/22/Sady.%E5%9B%BE%E5%BA%8A--%E6%88%91%E4%B9%9F%E6%9C%89%E5%9B%BE%E5%BA%8A%E5%95%A6%EF%BC%81/</url>
+      <link href="/2021/11/22/pic/"/>
+      <url>/2021/11/22/pic/</url>
       
         <content type="html"><![CDATA[<blockquote><p>Sady.图床(fgb.sady0.com)提供中文免费图床服务,原图上传,支持外链,支持粘贴上传无限制,全球CDN分发为您提供高速外链支持</p></blockquote><p>Sady.图床：<a href="https://fgb.sady0.com/">https://fgb.sady0.com</a></p><p><strong>我会利用业余时间维护Sady.图床, 希望给大家提供一个高速稳定而且长久的图片托管服务,让网站能够长期运营，坚持信仰！</strong></p><ul><li><p>1.启动AI自动图片识别系统.</p></li><li><p>2.限制使用VPN的用户上传权限.</p></li><li><p>3.限制部分国家或地区的用户上传权限.</p></li><li><p>4.屏蔽违规网站的外链权限.</p></li><li><p>5.特殊时间关闭游客上传权限.</p></li><li><p>6.对于违规用户, 删除该用户的所有图片并封IP段, 并保留公布相关违规用户信息权利.</p></li><li><p>7.对于多次或严重违规的用户(包括儿童色情、黑产、博彩、诈骗、网络钓鱼等)将直接举报给网监.</p></li></ul><p><img src="https://sady-1307006175.cos.ap-nanjing.myqcloud.com/2021/11/22/1ac4a70b7ff77.png" alt="Sady.图床"></p>]]></content>
       
@@ -17,13 +517,138 @@
     
     
     <entry>
+      <title>Markdown常用语句</title>
+      <link href="/2021/11/21/Markdown/"/>
+      <url>/2021/11/21/Markdown/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一：标题"><a href="#一：标题" class="headerlink" title="一：标题"></a>一：标题</h2><p>一个#是一级标题，二个#是二级标题，以此类推，语法代码如下：</p><p>插入标题Markdown语法代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line">## 这是二级标题</span><br><span class="line">### 这是三级标题</span><br></pre></td></tr></table></figure><p>对应的HTML代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;h1&gt;这是一级标题&lt;/h1&gt;</span><br><span class="line">&lt;h2&gt;这是二级标题&lt;/h2&gt;</span><br><span class="line">&lt;h3&gt;这是三级标题&lt;/h3&gt;</span><br></pre></td></tr></table></figure><h2 id="二：超链接"><a href="#二：超链接" class="headerlink" title="二：超链接"></a>二：超链接</h2><p>超链接Markdown语法代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[超链接显示名](超链接地址 &quot;超链接title&quot;)</span><br></pre></td></tr></table></figure><blockquote><p>注意：“超链接title”为可选项，可加可不加</p></blockquote><p>对应的HTML代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;超链接地址&quot; title=&quot;超链接title&quot;&gt;超链接显示名&lt;/a&gt;</span><br></pre></td></tr></table></figure><h2 id="三：插入图片"><a href="#三：插入图片" class="headerlink" title="三：插入图片"></a>三：插入图片</h2><p>插入图片Markdown语法代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![图片alt](图片链接 &quot;图片title&quot;)</span><br></pre></td></tr></table></figure><p>对应的HTML代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;img src=&quot;图片链接&quot; alt=&quot;图片alt&quot; title=&quot;图片title&quot;&gt;</span><br></pre></td></tr></table></figure><h2 id="四：字体"><a href="#四：字体" class="headerlink" title="四：字体"></a>四：字体</h2><p>字体Markdown语法代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">**这是加粗的文字**</span><br><span class="line">*这是倾斜的文字*`</span><br><span class="line">***这是斜体加粗的文字***</span><br><span class="line">~~这是加删除线的文字~~</span><br></pre></td></tr></table></figure><h2 id="五：引用"><a href="#五：引用" class="headerlink" title="五：引用"></a>五：引用</h2><p>引用Markdown语法代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt;引用的内容</span><br></pre></td></tr></table></figure><p>对应的HTML代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;blockquote&gt;引用的内容&lt;/blockquote&gt;</span><br></pre></td></tr></table></figure><h2 id="六：分割线"><a href="#六：分割线" class="headerlink" title="六：分割线"></a>六：分割线</h2><p>分割线使用三个或者三个以上的“-”或者“*”都可以</p><p>分割线Markdown语法代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">***</span><br></pre></td></tr></table></figure><h2 id="七：列表"><a href="#七：列表" class="headerlink" title="七：列表"></a>七：列表</h2><p>列表分为无序列表和有序列表，无序列表用使用“-”、“+”、“*”任何一种都可以，有序列表使用数字加点“1.”的形式</p><p>无序列表Markdown语法代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">- 列表内容</span><br><span class="line">+ 列表内容</span><br><span class="line">* 列表内容</span><br></pre></td></tr></table></figure><blockquote><p>注意：“-”、“+”、“*”跟内容之间都要有一个空格</p></blockquote><p>有序列表Markdown语法代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 列表内容</span><br><span class="line">2. 列表内容</span><br><span class="line">3. 列表内容</span><br></pre></td></tr></table></figure><blockquote><p>注意：“.”跟内容之间要有空格</p></blockquote><h2 id="八：表格"><a href="#八：表格" class="headerlink" title="八：表格"></a>八：表格</h2><p>插入表格Markdown语法代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">表头|表头|表头</span><br><span class="line">---|---|---</span><br><span class="line">内容|内容|内容</span><br><span class="line">内容|内容|内容</span><br></pre></td></tr></table></figure><h2 id="九：代码"><a href="#九：代码" class="headerlink" title="九：代码"></a>九：代码</h2><p>使用Markdown插入代码分为插入单行代码和代码块</p><p>插入单行代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">`代码内容`</span><br></pre></td></tr></table></figure><p>插入代码块：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">```</span><br><span class="line">代码内容</span><br><span class="line">```</span><br></pre></td></tr></table></figure><h2 id="十：任务列表"><a href="#十：任务列表" class="headerlink" title="十：任务列表"></a>十：任务列表</h2><p>如：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">- [x] 任务1，已完成;</span><br><span class="line">- [x] 任务2，已完成;</span><br><span class="line">- [ ] 任务3，未完成;</span><br></pre></td></tr></table></figure><ul><li> 任务1，已完成;</li><li> 任务2，已完成;</li><li> 任务3，未完成;</li></ul><h2 id="十一：注脚"><a href="#十一：注脚" class="headerlink" title="十一：注脚"></a>十一：注脚</h2><p>我是注脚 <code>[^10]</code>。点点就能知到我跳到了那儿。<br>或跳到放置：<code>&lt;a id=&quot;footnote-10&quot;&gt;任意内容&lt;/a&gt;</code> 的地方，<code>[^10]</code> 对应 <code>id=&quot;footnote-10&quot;</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Microsoft office 2019 专业增强版激活方法</title>
+      <link href="/2021/11/20/Microsoft%20office%20/"/>
+      <url>/2021/11/20/Microsoft%20office%20/</url>
+      
+        <content type="html"><![CDATA[<h1 id="office-2019-专业增强版"><a href="#office-2019-专业增强版" class="headerlink" title="office 2019 专业增强版"></a>office 2019 专业增强版</h1><p>今天在安装 office 时，使用 microKMS 神龙版破解时会出现不成功的情况<br>MS 对于 office 版权问题，越发严厉。Microsoft office 也经常失效。<br><img src="https://cdn.tandongtao.com/usr/uploads/2021/08/4129163377.png?imageView2/2/w/1920/q/75/format/webp" alt="alt"><br>新建文本文档，输入以下代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">@echooff</span><br><span class="line">(cd /d &quot;%~dp0&quot;)&amp;&amp;(NET FILE||(powershell start-process -FilePath &#x27;%0&#x27; -verb runas)&amp;&amp;(exit /B)) &gt;NUL 2&gt;&amp;1</span><br><span class="line">title Office 2019 Activator r/Piracy</span><br><span class="line">echo Converting... &amp; mode 40,25</span><br><span class="line">(if exist &quot;%ProgramFiles%\Microsoft Office\Office16\ospp.vbs&quot; cd /d &quot;%ProgramFiles%\Microsoft Office\Office16&quot;)&amp;(if exist &quot;%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs&quot; cd /d &quot;%ProgramFiles(x86)%\Microsoft Office\Office16&quot;)&amp;(for /f %%x in (&#x27;dir /b ..\root\Licenses16\ProPlus2019VL*.xrm-ms&#x27;) do cscript ospp.vbs /inslic:&quot;..\root\Licenses16\%%x&quot; &gt;nul)&amp;(for /f %%x in (&#x27;dir /b ..\root\Licenses16\ProPlus2019VL*.xrm-ms&#x27;) do cscript ospp.vbs /inslic:&quot;..\root\Licenses16\%%x&quot; &gt;nul)</span><br><span class="line">cscript //nologo ospp.vbs /unpkey:6MWKP &gt;nul&amp;cscript //nologo ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP &gt;nul&amp;set i=1</span><br><span class="line">:server</span><br><span class="line">if %i%==1 set KMS_Sev=kms7.MSGuides.com</span><br><span class="line">if %i%==2 set KMS_Sev=kms8.MSGuides.com</span><br><span class="line">if %i%==3 set KMS_Sev=kms9.MSGuides.com</span><br><span class="line">cscript //nologo ospp.vbs /sethst:%KMS_Sev% &gt;nul</span><br><span class="line">echo %KMS_Sev% &amp; echo Activating...</span><br><span class="line">cscript //nologo ospp.vbs /act | find /i &quot;successful&quot; &amp;&amp; (echo Complete) || (echo Trying another KMS Server &amp; set /a i+=1 &amp; goto server)</span><br><span class="line">pause &gt;nul</span><br><span class="line">exit</span><br></pre></td></tr></table></figure><p>保存之后，修改文本文档后缀，将.txt 修改为.bat<br>保持联网，然后以管理员身份运行，等待数秒，即可激活。(多等一会)<br>本方法通过 kms 密钥管理服务器激活，有效期为 180 天，但是根据国外论坛的说法，也就是等到 180 天后，会自动联网激活，不用操作，然后再续 180 天（但不知道是否真的是这样）。</p><h1 id="附录-各个版本-Office-对应更换密钥"><a href="#附录-各个版本-Office-对应更换密钥" class="headerlink" title="附录 - 各个版本 Office 对应更换密钥"></a>附录 - 各个版本 Office 对应更换密钥</h1><p><strong>Office2019 版本</strong><br>GRBR4-J4N3M-KTX9C-JM4PJ-J8HPT</p><p><strong>Office2016 版本</strong><br>XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99</p><p><strong>Office2013 版本</strong><br>GQVNC-24YPY-KHJB4-CQRT3-GF2DH</p><h1 id="Visio-2019-Pro"><a href="#Visio-2019-Pro" class="headerlink" title="Visio 2019 Pro"></a>Visio 2019 Pro</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">@echo off</span><br><span class="line">title Activate Microsoft Visio 2019&amp;cls&amp;echo ============================================================================&amp;echo #Visio: Activating Microsoft software products for FREE without software&amp;echo ============================================================================&amp;echo.&amp;echo #Supported products:&amp;echo - Microsoft Visio Standard 2019&amp;echo - Microsoft Visio Professional Plus 2019&amp;echo.&amp;echo.&amp;(if exist &quot;%ProgramFiles%\Microsoft Office\Office16\ospp.vbs&quot; cd /d &quot;%ProgramFiles%\Microsoft Office\Office16&quot;)&amp;(if exist &quot;%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs&quot; cd /d &quot;%ProgramFiles(x86)%\Microsoft Office\Office16&quot;)&amp;cscript //nologo ospp.vbs /inslic:&quot;..\root\Licenses16\pkeyconfig-office.xrm-ms&quot; &gt;nul&amp;(for /f %%x in (&#x27;dir /b ..\root\Licenses16\client-issuance*.xrm-ms&#x27;) do cscript ospp.vbs /inslic:&quot;..\root\Licenses16\%%x&quot; &gt;nul)&amp;(for /f %%x in (&#x27;dir /b ..\root\Licenses16\visioprovl_kms*.xrm-ms&#x27;) do cscript ospp.vbs /inslic:&quot;..\root\Licenses16\%%x&quot; &gt;nul)&amp;(for /f %%x in (&#x27;dir /b ..\root\Licenses16\visiopro2019vl_kms*.xrm-ms&#x27;) do cscript ospp.vbs /inslic:&quot;..\root\Licenses16\%%x&quot; &gt;nul)&amp;echo.&amp;echo ============================================================================&amp;echo 正在尝试激活...&amp;cscript //nologo ospp.vbs /unpkey:7VCBB &gt;nul&amp;cscript //nologo ospp.vbs /inpkey:9BGNQ-K37YR-RQHF2-38RQ3-7VCBB &gt;nul&amp;set i=1</span><br><span class="line">:server</span><br><span class="line">if %i%==1 set KMS_Sev=kms8.MSGuides.com</span><br><span class="line">if %i%==2 set KMS_Sev=kms9.MSGuides.com</span><br><span class="line">if %i%==3 set KMS_Sev=kms7.MSGuides.com</span><br><span class="line">if %i%==4 goto notsupported</span><br><span class="line">cscript //nologo ospp.vbs /sethst:%KMS_Sev% &gt;nul&amp;echo ============================================================================&amp;echo.&amp;echo.</span><br><span class="line">cscript //nologo ospp.vbs /act | find /i &quot;successful&quot; &amp;&amp; (echo 已完成，按任意键退出) || (echo 连接KMS服务器失败! 试图连接到另一个… &amp; echo 请等待... &amp; echo. &amp; echo. &amp; set /a i+=1 &amp; goto server)</span><br><span class="line">pause &gt;nul</span><br><span class="line">exit</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Microsoft office </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>阿里云使用宝塔面板部署 Hexo 博客</title>
-      <link href="/2021/11/05/%E9%98%BF%E9%87%8C%E4%BA%91%E4%BD%BF%E7%94%A8%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E9%83%A8%E7%BD%B2%20Hexo%20%E5%8D%9A%E5%AE%A2/"/>
-      <url>/2021/11/05/%E9%98%BF%E9%87%8C%E4%BA%91%E4%BD%BF%E7%94%A8%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E9%83%A8%E7%BD%B2%20Hexo%20%E5%8D%9A%E5%AE%A2/</url>
+      <link href="/2021/11/05/bt/"/>
+      <url>/2021/11/05/bt/</url>
       
         <content type="html"><![CDATA[<p>It has been 541 days since the last update, the content of the article may be outdated.</p><p>宝塔系统依托于 <code>Centos</code> 开发，所以我们服务器系统选择 Centos7+</p><h2 id="安装宝塔"><a href="#安装宝塔" class="headerlink" title="安装宝塔"></a>安装宝塔</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install_6.0.sh &amp;&amp; sh install.sh</span><br></pre></td></tr></table></figure><p>安装完成后，登录宝塔，首次登录会提示我们安装环境，我们勾选 <code>Nginx</code> 即可。</p><p>之后，我们在 <code>home</code> 文件夹下新建 <code>git</code>，<code>hexo</code> 这两个文件夹</p><p><a href="https://bu.dusays.com/2021/09/28/edc98ab86ee44.png"><img src="https://bu.dusays.com/2021/09/28/edc98ab86ee44.png" alt="img"></a></p><p>随后，我们登录我们的服务器，一次执行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd ..</span><br><span class="line">cd home</span><br><span class="line">cd git</span><br><span class="line">git init --bare blog.git</span><br></pre></td></tr></table></figure><p>接着，在目录 <code>/home/git/blog.git/hooks</code> 下新建文件 <code>post-receive</code>，写入一下代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git --work-tree=/home/hexo --git-dir=/home/git/blog.git checkout -f</span><br></pre></td></tr></table></figure><p>给 <code>post-receive</code> 权限</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod +x /home/git/blog.git/hooks/post-receive</span><br></pre></td></tr></table></figure><h2 id="配置-Nginx"><a href="#配置-Nginx" class="headerlink" title="配置 Nginx"></a>配置 Nginx</h2><p>宝塔面板默认的 <code>nginx</code> 配置文件在根目录 -&gt;www-&gt;serve-&gt;nginx-&gt;conf 下，找到 <code>nginx.conf</code>，编辑它</p><p>重启 <code>nginx</code> 服务</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service nginx restart</span><br></pre></td></tr></table></figure><h2 id="本地-Hexo-配置"><a href="#本地-Hexo-配置" class="headerlink" title="本地 Hexo 配置"></a>本地 Hexo 配置</h2><p>修改<code>_config.yml</code> 中的配置</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: user@ip:/home/git/blog</span><br></pre></td></tr></table></figure><p>这个时候配置差不多就好了，<code>hexo generate --deplay</code> 部署后就可以访问博客了</p><p>接下来在宝塔面板里添加网站</p><p><a href="https://bu.dusays.com/2021/09/28/f0e14ae0e58ea.png"><img src="https://bu.dusays.com/2021/09/28/f0e14ae0e58ea.png" alt="img"></a></p><p>之后在阿里云将域名解析到服务器 ip 即可</p><h2 id="SSL-证书"><a href="#SSL-证书" class="headerlink" title="SSL 证书"></a>SSL 证书</h2><p>在阿里云中申请个证书，将内容填入其中即可</p><p><a href="https://bu.dusays.com/2021/09/28/d24d1d90c359b.png"><img src="https://bu.dusays.com/2021/09/28/d24d1d90c359b.png" alt="img"></a></p>]]></content>
       
       
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>因为喜欢而努力</title>
+      <link href="/2021/10/26/link/"/>
+      <url>/2021/10/26/link/</url>
+      
+        <content type="html"><![CDATA[<h2 id="不忘初心"><a href="#不忘初心" class="headerlink" title="不忘初心"></a>不忘初心</h2><p>已经很久没更新博客了，不知道该写点啥，其实本来搭建博客时也没想那么多就是想通过博客结识到一些志同道合的朋友，也为了提高自己的写作能力。分享一些前端经验和日常生活甚至情感文章，做一个能分享知识和发泄情绪的小地方。</p><h2 id="自嘲"><a href="#自嘲" class="headerlink" title="自嘲"></a>自嘲</h2><p>其实我也只是一个普普通通的人，略懂一点前端而已。并不是在外人看来的技术大神，在外行人看来我那些前端笔记简直就是天书很高深的样子，其实吧在内行人看来真的不值得一提。</p><p>我那些文章简直就是垃圾水文，没有一点技术含量所以我一直在学习，一直在努力。想努力成为被那些大牛级人物看得上的人，争取写出好的文章做到评论区能有位大佬评论一句”还不错”。</p><p>从小我也不怎么热爱学习，成绩也很普通，说是妥妥的学渣又比学渣好点，这也导致了我中考失利，考进了一所中职，说出来也不怕被笑话我初中学了三年英语连音标都没学会。</p><h2 id="最终选择了走前端"><a href="#最终选择了走前端" class="headerlink" title="最终选择了走前端"></a>最终选择了走前端</h2><p>因为对编程感兴趣我了解了很多编程语言，从 python 到 Java 又到 web 前端等了解了大体的用处和当今就业市场，对比和学历要求，薪资待遇，学习难度等多种元素，也尝试过几种语言的学习，最后以自身原因选择了前端。</p><p>然后选择了继续读书，上了一所大专院校选择了计算机系。从此踏上了大专的学校生涯，记得以前抖音流行一句话”大专人，大专魂，大专都是人上人”可想象的大专并不是那样，大专百分之七十吧都是混日子，打游戏从早打到晚每天三点一线的日子吃饭-睡觉-打游戏，很少有能静下心来学习的人。好的学习氛围的话也是基本是不存在的。</p><p>很多人觉得上了大专基本就废了，没啥前途，其实是自己的不努力不上进而废了自己，而大专收留了你给了你一次机会。想想自己要是努力上进会考不上一所本科而选择大专吗？</p><p>所以就算上了一所大专我也没有放弃，我一直都在学习进步，相信自己会好起来的，虽然现实是残酷的有些事改变不了，但是我不能自暴自弃，每天能进步一点点我也很知足了，每次写文章我也会审视自己让自己变得更好。</p><p>希望自己不忘初心能够做一名合格的前端工程师，用自己的技术养活父母和爱人，过上自己理想的日子，虽然现实很残酷但心中依然有光。</p><p>在此我也希望在读大专的朋友不要放弃学习，不要忘记初心，做了选择就不要后悔，因为后悔也是没用的，罗翔老师说过一句话”人最大痛苦就是无法跨越知道和做到的鸿沟。人要接受自己的有限性，第一承认自己的有限性，承认你的逻辑有限，承认你的理性有限，承认你的阅读有限，承认你整个人就是在偏见中，你这一生都在走出偏见……”加油各位陌生人希望大家能走出偏见，祝大家前程似锦。<br><img src="https://pic.imgdb.cn/item/6103ceea5132923bf84adc36.jpg" alt="alt"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> link </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>chrome插件推荐</title>
+      <link href="/2021/10/26/chrome/"/>
+      <url>/2021/10/26/chrome/</url>
+      
+        <content type="html"><![CDATA[<p>此文章推荐一些本人使用过的一些 chrome 插件，排名不分先后</p><h2 id="Tampermonkey"><a href="#Tampermonkey" class="headerlink" title="Tampermonkey"></a>Tampermonkey</h2><p><a href="https://chrome.zzzmh.cn/info?token=dhdgffkkebhmkfjojejmpbldmpobfkfo">Tampermonkey</a>（油猴脚本）是一款免费的浏览器扩展和最为流行的用户脚本管理器，它适用于 Chrome, Microsoft Edge, Safari, Opera Next, 和 Firefox。这个插件让我们在浏览器中运行不同的脚本，脚本下载地址：<a href="https://greasyfork.org/zh-CN/scripts">点我跳转</a></p><h2 id="Momentum"><a href="#Momentum" class="headerlink" title="Momentum"></a>Momentum</h2><p><a href="https://chrome.zzzmh.cn/info?token=laookkfknpbbblfpciffpaejjkokdgca">Momentum</a> 拥有超过 300 万用户。超漂亮的新标签页面。每日更新精彩背景壁纸图片，可设置每日新鲜事焦点，跟踪待办事项</p><h2 id="Saladict"><a href="#Saladict" class="headerlink" title="Saladict"></a>Saladict</h2><p><a href="https://chrome.zzzmh.cn/info?token=cdonnmffkdaoajfknoeeecmchibpmkmg">Saladict</a> 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本、PDF，以及 Vimium 全键盘操作，亲测非常实用！整页用有道翻译比浏览器自带的谷歌翻译的准，划词翻译可以支持多家翻译结果同时显示</p><h2 id="JSONViewer"><a href="#JSONViewer" class="headerlink" title="JSONViewer"></a>JSONViewer</h2><p><a href="https://chrome.zzzmh.cn/info?token=khbdpaabobknhhlpglenglkkhdmkfnca">JSONViewer</a> 可以自动格式化浏览器的 <code>json</code> 数据格式</p><h2 id="Adblock-Plus"><a href="#Adblock-Plus" class="headerlink" title="Adblock Plus"></a>Adblock Plus</h2><p><a href="https://chrome.zzzmh.cn/info?token=cfhdojbkjhnklbpkdaibdccddilifddb">Adblock Plus</a> 是 Firefox、Chrome、Safari、Android 和 iOS 上最受欢迎的广告拦截程序，亲测！不管国内国外网站的什么形式广告，全部安排的明明白白</p><h2 id="Imagus"><a href="#Imagus" class="headerlink" title="Imagus"></a>Imagus</h2><p><a href="https://chrome.zzzmh.cn/info?token=immpkjjlgappgfkkfieppnmlhakdmaab">Imagus</a> 可以将鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频 / 音频和内容专辑</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 浏览器插件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Typecho 开启 https</title>
+      <link href="/2020/11/29/Typechohttps/"/>
+      <url>/2020/11/29/Typechohttps/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前景"><a href="#前景" class="headerlink" title="前景"></a>前景</h1><p>今天给我的日志站点加了 ssl 后，发现站点无法提交信息。<br> 然后我就想了一下也没啥问题出现啊，然而我遗忘了一步。</p><h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><ol><li>先部署好 ssl 证书，开启强制跳 https</li><li>在 ty 根目录的找到 config.inc.php</li><li>在 config.inc.php 里加入一下代码，保存即可</li></ol><p>需要添加的代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">/** 开启HTTPS **/</span><br><span class="line">define(&#x27;__TYPECHO_SECURE__&#x27;,true);</span><br></pre></td></tr></table></figure><h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><p>附上一个免费申请 ssl 证书的站点，支持泛解析<br>[button color=”info” icon=”” url=”<a href="https://www.sslforfree.com/&quot;">https://www.sslforfree.com/&quot;</a> type=”round”]猛戳直达[/button]</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Typecho </tag>
+            
+        </tags>
       
     </entry>
     
