@@ -529,6 +529,31 @@
     
     
     <entry>
+      <title>初玩博客---对博客系统选择</title>
+      <link href="/2021/11/29/Blog%20-%20%E5%89%AF%E6%9C%AC/"/>
+      <url>/2021/11/29/Blog%20-%20%E5%89%AF%E6%9C%AC/</url>
+      
+        <content type="html"><![CDATA[<p>** 现在博客系统比较多，一一列举肯定是不可能的，这里选择了4个，分别是：Wordpress，Hexo，Typecho，INIS **</p><h1 id="Wordpress（wordpress-org）"><a href="#Wordpress（wordpress-org）" class="headerlink" title="Wordpress（wordpress.org）"></a>Wordpress（wordpress.org）</h1><p>这个系统我曾经用过，但是吧有点接受不了<br><img src="https://img1.baidu.com/it/u=3874753494,1453037774&fm=26&fmt=auto&gp=0.jpg" alt="Wordpress"></p><h3 id="优点："><a href="#优点：" class="headerlink" title="优点："></a>优点：</h3><ol><li>基本都是动态的网页，写文章不像其他blog系统用的是markdown，这也带来了更好的书写体验。（当然有人用得惯markdown那就没关系了）</li><li>使用人数多因此插件和主题也相对多，可扩展度也就更高。</li><li>即使在不对它进行扩展的情况下，功能也很多</li></ol><h3 id="缺点："><a href="#缺点：" class="headerlink" title="缺点："></a>缺点：</h3><ol><li>动态网页，最大的问题就是加载慢，对服务器要求相对较高</li><li>默认主题丑的一批，虽然其他俩也这样</li></ol><h1 id="Typecho（typecho-org）"><a href="#Typecho（typecho-org）" class="headerlink" title="Typecho（typecho.org）"></a>Typecho（typecho.org）</h1><p>这个也是我正在用的，我这边会重点讲<br><img src="https://img2.baidu.com/it/u=3087675103,3300994286&fm=26&fmt=auto&gp=0.jpg" alt="Typecho"></p><h3 id="优点：-1"><a href="#优点：-1" class="headerlink" title="优点："></a>优点：</h3><ol><li>基本静态，访问很快</li><li>占用非常小，一般正常的服务器运行都没得压力。</li><li>主题非常丰富</li></ol><h3 id="缺点：-1"><a href="#缺点：-1" class="headerlink" title="缺点："></a>缺点：</h3><ol><li>后台简洁，可玩性不高</li></ol><h1 id="Hexo（hexo-io）"><a href="#Hexo（hexo-io）" class="headerlink" title="Hexo（hexo.io）"></a>Hexo（hexo.io）</h1><p><img src="https://img0.baidu.com/it/u=1715427547,838496870&fm=26&fmt=auto&gp=0.jpg" alt="Hexo"></p><h3 id="优点：-2"><a href="#优点：-2" class="headerlink" title="优点："></a>优点：</h3><ol><li>完全静态，速度起飞。</li><li>主题很多，而且很多都很好看（由于我当时并没有玩懂所以我不知道能不能装插件）</li></ol><h3 id="缺点：-2"><a href="#缺点：-2" class="headerlink" title="缺点："></a>缺点：</h3><ol><li>安装个环境都能把人整疯的那种</li><li>到现在我都不知道他文章咋写的</li></ol><h1 id="INIS（https-racns-com-inis-html）"><a href="#INIS（https-racns-com-inis-html）" class="headerlink" title="INIS（https://racns.com/inis.html）"></a>INIS（<a href="https://racns.com/inis.html%EF%BC%89">https://racns.com/inis.html）</a></h1><p><strong>inis · 新一代博客系统</strong><br><img src="https://inis.cn/assets/images/logo.png" alt="INIS"></p><h3 id="优点：-3"><a href="#优点：-3" class="headerlink" title="优点："></a>优点：</h3><ol><li>整站封装，全站分离，真正意义上的前后端分离</li><li>由于使用静态，访问速度非常快</li><li>界面简洁</li></ol><h3 id="缺点：-3"><a href="#缺点：-3" class="headerlink" title="缺点："></a>缺点：</h3><ol><li>系统刚刚发布，还有部分BUG</li><li>新博客系统主题和插件较少</li></ol><p>整体而言还是不错的，而且新一代博客系统，还会有很大的发展前景的<br>演示站：blog.mxwl520.cn</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 闲谈 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>HTML常用标签</title>
       <link href="/2021/11/27/HTML1/"/>
       <url>/2021/11/27/HTML1/</url>
