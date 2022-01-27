@@ -479,31 +479,6 @@
     
     
     <entry>
-      <title>windows 通过资源管理器访问 ftp 出现 200,227 错误解决方案</title>
-      <link href="/2021/11/29/windows/"/>
-      <url>/2021/11/29/windows/</url>
-      
-        <content type="html"><![CDATA[<p>报错信息：<br><img src="https://cdn.tandongtao.com/usr/uploads/2021/08/2805416798.png?imageView2/2/w/1920/q/75/format/webp" alt="alt"><br>打开控制面板 —–》Internet 选项 —–》高级 —–》<br><img src="https://cdn.tandongtao.com/usr/uploads/2021/08/1185177858.png?imageView2/2/w/1920/q/75/format/webp" alt="alt"><br>使用被动 FTP 这一项取消勾选！</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> windows </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>网站访问速度优化</title>
       <link href="/2021/11/29/wl/"/>
       <url>/2021/11/29/wl/</url>
@@ -521,6 +496,31 @@
         <tags>
             
             <tag> 网站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>windows 通过资源管理器访问 ftp 出现 200,227 错误解决方案</title>
+      <link href="/2021/11/29/windows/"/>
+      <url>/2021/11/29/windows/</url>
+      
+        <content type="html"><![CDATA[<p>报错信息：<br><img src="https://cdn.tandongtao.com/usr/uploads/2021/08/2805416798.png?imageView2/2/w/1920/q/75/format/webp" alt="alt"><br>打开控制面板 —–》Internet 选项 —–》高级 —–》<br><img src="https://cdn.tandongtao.com/usr/uploads/2021/08/1185177858.png?imageView2/2/w/1920/q/75/format/webp" alt="alt"><br>使用被动 FTP 这一项取消勾选！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> windows </tag>
             
         </tags>
       
