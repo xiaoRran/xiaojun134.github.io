@@ -154,31 +154,6 @@
     
     
     <entry>
-      <title>国内提高 Github 访问速度的方法</title>
-      <link href="/2021/11/29/Github/"/>
-      <url>/2021/11/29/Github/</url>
-      
-        <content type="html"><![CDATA[<p>It has been 442 days since the last update, the content of the article may be outdated.</p><h2 id="Github-镜像访问"><a href="#Github-镜像访问" class="headerlink" title="Github 镜像访问"></a>Github 镜像访问</h2><p>两个常用的镜像地址：</p><ul><li><a href="https://github.com.cnpmjs.org/">https://github.com.cnpmjs.org</a></li><li><a href="https://hub.fastgit.org/">https://hub.fastgit.org</a></li></ul><p>上面的地址就是克隆版的 <code>Github</code>，网站的内容和 <code>Github</code> 的内容是一样的，然后在这个网站里面进行下载克隆等操作。</p><h2 id="Github-文件加速"><a href="#Github-文件加速" class="headerlink" title="Github 文件加速"></a>Github 文件加速</h2><p>利用 <code>Cloudflare Workers</code> 对 <code>github release</code> 、<code>archive</code> 以及项目文件进行加速，部署无需服务器且自带 <code>CDN</code></p><ul><li><a href="https://gh.api.99988866.xyz/">https://gh.api.99988866.xyz</a></li><li><a href="https://g.ioiox.com/">https://g.ioiox.com</a></li></ul><p>以上网站为演示站点，如无法打开可以查看开源项目：<a href="https://hunsh.net/archives/23/">gh-proxy-GitHub</a> 文件加速自行部署。</p><h2 id="Github-加速下载"><a href="#Github-加速下载" class="headerlink" title="Github 加速下载"></a>Github 加速下载</h2><p>只需要复制当前 <code>GitHub</code> 地址粘贴到输入框中就可以代理加速下载</p><p>地址：<a href="http://toolwa.com/github/">http://toolwa.com/github/</a></p><h2 id="谷歌浏览器-Github-加速插件"><a href="#谷歌浏览器-Github-加速插件" class="headerlink" title="谷歌浏览器 Github 加速插件"></a>谷歌浏览器 Github 加速插件</h2><p><a href="https://chrome.zzzmh.cn/info?token=mfnkflidjnladnkldfonnaicljppahpg">插件地址</a></p><h2 id="加速你的-Github"><a href="#加速你的-Github" class="headerlink" title="加速你的 Github"></a>加速你的 Github</h2><p><a href="https://github.zhlh6.cn,输入/">https://github.zhlh6.cn，输入</a> <code>Github</code> 仓库地址，使用生成的地址进行 <code>git</code>, <code>ssh</code> 等操作</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Github </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>常用CSS样式</title>
       <link href="/2021/11/29/CSS/"/>
       <url>/2021/11/29/CSS/</url>
@@ -196,6 +171,31 @@
         <tags>
             
             <tag> CSS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>国内提高 Github 访问速度的方法</title>
+      <link href="/2021/11/29/Github/"/>
+      <url>/2021/11/29/Github/</url>
+      
+        <content type="html"><![CDATA[<p>It has been 442 days since the last update, the content of the article may be outdated.</p><h2 id="Github-镜像访问"><a href="#Github-镜像访问" class="headerlink" title="Github 镜像访问"></a>Github 镜像访问</h2><p>两个常用的镜像地址：</p><ul><li><a href="https://github.com.cnpmjs.org/">https://github.com.cnpmjs.org</a></li><li><a href="https://hub.fastgit.org/">https://hub.fastgit.org</a></li></ul><p>上面的地址就是克隆版的 <code>Github</code>，网站的内容和 <code>Github</code> 的内容是一样的，然后在这个网站里面进行下载克隆等操作。</p><h2 id="Github-文件加速"><a href="#Github-文件加速" class="headerlink" title="Github 文件加速"></a>Github 文件加速</h2><p>利用 <code>Cloudflare Workers</code> 对 <code>github release</code> 、<code>archive</code> 以及项目文件进行加速，部署无需服务器且自带 <code>CDN</code></p><ul><li><a href="https://gh.api.99988866.xyz/">https://gh.api.99988866.xyz</a></li><li><a href="https://g.ioiox.com/">https://g.ioiox.com</a></li></ul><p>以上网站为演示站点，如无法打开可以查看开源项目：<a href="https://hunsh.net/archives/23/">gh-proxy-GitHub</a> 文件加速自行部署。</p><h2 id="Github-加速下载"><a href="#Github-加速下载" class="headerlink" title="Github 加速下载"></a>Github 加速下载</h2><p>只需要复制当前 <code>GitHub</code> 地址粘贴到输入框中就可以代理加速下载</p><p>地址：<a href="http://toolwa.com/github/">http://toolwa.com/github/</a></p><h2 id="谷歌浏览器-Github-加速插件"><a href="#谷歌浏览器-Github-加速插件" class="headerlink" title="谷歌浏览器 Github 加速插件"></a>谷歌浏览器 Github 加速插件</h2><p><a href="https://chrome.zzzmh.cn/info?token=mfnkflidjnladnkldfonnaicljppahpg">插件地址</a></p><h2 id="加速你的-Github"><a href="#加速你的-Github" class="headerlink" title="加速你的 Github"></a>加速你的 Github</h2><p><a href="https://github.zhlh6.cn,输入/">https://github.zhlh6.cn，输入</a> <code>Github</code> 仓库地址，使用生成的地址进行 <code>git</code>, <code>ssh</code> 等操作</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
             
         </tags>
       
@@ -329,31 +329,6 @@
     
     
     <entry>
-      <title>端口聚合</title>
-      <link href="/2021/11/29/dk/"/>
-      <url>/2021/11/29/dk/</url>
-      
-        <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><ul><li>在如下场景中，为了可以满足来自多条链路的流量，交换机之间必须具有更高的带宽</li><li>可以增加交换机之间的物理链路数量，以提高交换机之间通信的总体速度</li><li>但一般情况下交换机会启用 STP，阻塞冗余链路，以防环路出现</li></ul><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><ul><li>链路聚合又称端口聚合（Aggregate-port），是把交换机多个特性相同的端口物理捆绑为一个逻辑端口</li><li>聚合标准：IEEE 802.3ad</li><li>聚合优点：<br>扩展链路带宽；<br>实现成员端口上的流量平衡；<br>自动链路冗余备份；</li></ul><h2 id="端口聚合的流量平衡"><a href="#端口聚合的流量平衡" class="headerlink" title="端口聚合的流量平衡"></a>端口聚合的流量平衡</h2><ul><li>流量平衡：把流量平均地分配到 AP 的成员链路中去</li><li>流量平衡方式：</li><li>  1、根据源 MAC 地址</li><li>  2、根据目的 MAC 地址</li><li>  3、根据源 IP 地址</li><li>  4、根据目的 IP 地址</li><li>  5、根据源、目标 MAC 地址</li><li>  6、根据源、目标 IP 地址</li><li>不同设备的流量平衡方式可以不同</li></ul><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ul><li>AP 成员端口的速率必须一致</li><li>AP 成员端口必须属于同一个 VLAN</li><li>AP 成员端口使用的传输介质应相同</li><li>缺省情况下创建的 Aggregate Port 是二层 AP</li><li>1、二层端口只能加入二层 AP</li><li>2、三层端口只能加入三层 AP</li><li>AP 不能设置端口安全功能</li><li>当把端口加入一个不存在的 AP 时，AP 会被自动创建</li><li>一个端口加入 AP，端口的属性将被 AP 的属性所取代</li><li>一个端口从 AP 中删除，则端口的属性将恢复为其加入 AP 前的属性</li><li>当一个端口加入 AP 后，不能在该端口上进行任何配置，直到该端口退出 AP</li></ul><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>创建端口聚合组</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Swtich(config)#interface aggregateport [aggregate-port-number] </span><br><span class="line"></span><br><span class="line">aggregate-port-number聚合链路ID，本地有效</span><br></pre></td></tr></table></figure><p>将接口加入端口聚合组</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Switch(config)#interface range &#123;port-range&#125;</span><br><span class="line">Switch(config-if-range)# port-group [aggregate-port-number] </span><br><span class="line">注意：如果这个端口聚合组不存在，则同时创建这个端口聚合组 </span><br></pre></td></tr></table></figure><p>将接口从端口聚合组删除</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Switch(config-if)# no port-group </span><br></pre></td></tr></table></figure><p>将端口聚合组设置为三层接口</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Switch(config)#interface aggregateport [aggregate-port-number] </span><br><span class="line">Switch(config-if)#no switchport </span><br><span class="line">Switch(config-if)#ip address ip-address mask </span><br></pre></td></tr></table></figure><p>配置流量平衡</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Switch (config)#aggregateport load-balance &#123;dst-mac|src-mac|src-dst-mac|dst-ip|src-ip|ip &#125;</span><br><span class="line">注意：不同型号交换机支持的流量平衡算法可能会不同 </span><br><span class="line">查看端口聚合配置</span><br></pre></td></tr></table></figure><p>查看端口聚合配置</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Switch# show aggregateport [aggregate-port-number] &#123;load-balance |summary&#125;</span><br><span class="line">Switch# show interface aggregateport [aggregate-port-number] </span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 端口 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>每个人心中都有一个创业梦</title>
       <link href="/2021/11/29/cy/"/>
       <url>/2021/11/29/cy/</url>
@@ -404,6 +379,31 @@
     
     
     <entry>
+      <title>端口聚合</title>
+      <link href="/2021/11/29/dk/"/>
+      <url>/2021/11/29/dk/</url>
+      
+        <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><ul><li>在如下场景中，为了可以满足来自多条链路的流量，交换机之间必须具有更高的带宽</li><li>可以增加交换机之间的物理链路数量，以提高交换机之间通信的总体速度</li><li>但一般情况下交换机会启用 STP，阻塞冗余链路，以防环路出现</li></ul><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><ul><li>链路聚合又称端口聚合（Aggregate-port），是把交换机多个特性相同的端口物理捆绑为一个逻辑端口</li><li>聚合标准：IEEE 802.3ad</li><li>聚合优点：<br>扩展链路带宽；<br>实现成员端口上的流量平衡；<br>自动链路冗余备份；</li></ul><h2 id="端口聚合的流量平衡"><a href="#端口聚合的流量平衡" class="headerlink" title="端口聚合的流量平衡"></a>端口聚合的流量平衡</h2><ul><li>流量平衡：把流量平均地分配到 AP 的成员链路中去</li><li>流量平衡方式：</li><li>  1、根据源 MAC 地址</li><li>  2、根据目的 MAC 地址</li><li>  3、根据源 IP 地址</li><li>  4、根据目的 IP 地址</li><li>  5、根据源、目标 MAC 地址</li><li>  6、根据源、目标 IP 地址</li><li>不同设备的流量平衡方式可以不同</li></ul><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ul><li>AP 成员端口的速率必须一致</li><li>AP 成员端口必须属于同一个 VLAN</li><li>AP 成员端口使用的传输介质应相同</li><li>缺省情况下创建的 Aggregate Port 是二层 AP</li><li>1、二层端口只能加入二层 AP</li><li>2、三层端口只能加入三层 AP</li><li>AP 不能设置端口安全功能</li><li>当把端口加入一个不存在的 AP 时，AP 会被自动创建</li><li>一个端口加入 AP，端口的属性将被 AP 的属性所取代</li><li>一个端口从 AP 中删除，则端口的属性将恢复为其加入 AP 前的属性</li><li>当一个端口加入 AP 后，不能在该端口上进行任何配置，直到该端口退出 AP</li></ul><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>创建端口聚合组</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Swtich(config)#interface aggregateport [aggregate-port-number] </span><br><span class="line"></span><br><span class="line">aggregate-port-number聚合链路ID，本地有效</span><br></pre></td></tr></table></figure><p>将接口加入端口聚合组</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Switch(config)#interface range &#123;port-range&#125;</span><br><span class="line">Switch(config-if-range)# port-group [aggregate-port-number] </span><br><span class="line">注意：如果这个端口聚合组不存在，则同时创建这个端口聚合组 </span><br></pre></td></tr></table></figure><p>将接口从端口聚合组删除</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Switch(config-if)# no port-group </span><br></pre></td></tr></table></figure><p>将端口聚合组设置为三层接口</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Switch(config)#interface aggregateport [aggregate-port-number] </span><br><span class="line">Switch(config-if)#no switchport </span><br><span class="line">Switch(config-if)#ip address ip-address mask </span><br></pre></td></tr></table></figure><p>配置流量平衡</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Switch (config)#aggregateport load-balance &#123;dst-mac|src-mac|src-dst-mac|dst-ip|src-ip|ip &#125;</span><br><span class="line">注意：不同型号交换机支持的流量平衡算法可能会不同 </span><br><span class="line">查看端口聚合配置</span><br></pre></td></tr></table></figure><p>查看端口聚合配置</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Switch# show aggregateport [aggregate-port-number] &#123;load-balance |summary&#125;</span><br><span class="line">Switch# show interface aggregateport [aggregate-port-number] </span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 端口 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>树莓派安装帅气的netdata监控工具</title>
       <link href="/2021/11/29/netdata/"/>
       <url>/2021/11/29/netdata/</url>
@@ -421,31 +421,6 @@
         <tags>
             
             <tag> 树莓派 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>windows 通过资源管理器访问 ftp 出现 200,227 错误解决方案</title>
-      <link href="/2021/11/29/windows/"/>
-      <url>/2021/11/29/windows/</url>
-      
-        <content type="html"><![CDATA[<p>报错信息：<br><img src="https://cdn.tandongtao.com/usr/uploads/2021/08/2805416798.png?imageView2/2/w/1920/q/75/format/webp" alt="alt"><br>打开控制面板 —–》Internet 选项 —–》高级 —–》<br><img src="https://cdn.tandongtao.com/usr/uploads/2021/08/1185177858.png?imageView2/2/w/1920/q/75/format/webp" alt="alt"><br>使用被动 FTP 这一项取消勾选！</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> windows </tag>
             
         </tags>
       
@@ -496,6 +471,31 @@
         <tags>
             
             <tag> script </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>windows 通过资源管理器访问 ftp 出现 200,227 错误解决方案</title>
+      <link href="/2021/11/29/windows/"/>
+      <url>/2021/11/29/windows/</url>
+      
+        <content type="html"><![CDATA[<p>报错信息：<br><img src="https://cdn.tandongtao.com/usr/uploads/2021/08/2805416798.png?imageView2/2/w/1920/q/75/format/webp" alt="alt"><br>打开控制面板 —–》Internet 选项 —–》高级 —–》<br><img src="https://cdn.tandongtao.com/usr/uploads/2021/08/1185177858.png?imageView2/2/w/1920/q/75/format/webp" alt="alt"><br>使用被动 FTP 这一项取消勾选！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> windows </tag>
             
         </tags>
       
