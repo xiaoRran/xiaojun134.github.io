@@ -1,0 +1,82 @@
+---
+title: 端口聚合
+tags: 端口
+categories: 技术
+cover: 'https://tva4.sinaimg.cn/large/9bd9b167gy1g4lj3jiucgj21hc0xc4qq.jpg'
+abbrlink: d8494837
+date: 2021-11-29 15:00:30
+---
+
+## 背景
+
+* 在如下场景中，为了可以满足来自多条链路的流量，交换机之间必须具有更高的带宽
+* 可以增加交换机之间的物理链路数量，以提高交换机之间通信的总体速度
+* 但一般情况下交换机会启用 STP，阻塞冗余链路，以防环路出现
+
+## 概述
+* 链路聚合又称端口聚合（Aggregate-port），是把交换机多个特性相同的端口物理捆绑为一个逻辑端口
+* 聚合标准：IEEE 802.3ad
+* 聚合优点：
+扩展链路带宽；
+实现成员端口上的流量平衡；
+自动链路冗余备份；
+
+## 端口聚合的流量平衡
+* 流量平衡：把流量平均地分配到 AP 的成员链路中去
+* 流量平衡方式：
+*   1、根据源 MAC 地址
+*   2、根据目的 MAC 地址
+*   3、根据源 IP 地址
+*   4、根据目的 IP 地址
+*   5、根据源、目标 MAC 地址
+*   6、根据源、目标 IP 地址
+* 不同设备的流量平衡方式可以不同
+
+## 注意事项
+* AP 成员端口的速率必须一致
+* AP 成员端口必须属于同一个 VLAN
+* AP 成员端口使用的传输介质应相同
+* 缺省情况下创建的 Aggregate Port 是二层 AP
+* 1、二层端口只能加入二层 AP
+* 2、三层端口只能加入三层 AP
+* AP 不能设置端口安全功能
+* 当把端口加入一个不存在的 AP 时，AP 会被自动创建
+* 一个端口加入 AP，端口的属性将被 AP 的属性所取代
+* 一个端口从 AP 中删除，则端口的属性将恢复为其加入 AP 前的属性
+* 当一个端口加入 AP 后，不能在该端口上进行任何配置，直到该端口退出 AP
+
+## 配置
+
+创建端口聚合组
+```
+Swtich(config)#interface aggregateport [aggregate-port-number] 
+
+aggregate-port-number聚合链路ID，本地有效
+```
+将接口加入端口聚合组
+```
+Switch(config)#interface range {port-range}
+Switch(config-if-range)# port-group [aggregate-port-number] 
+注意：如果这个端口聚合组不存在，则同时创建这个端口聚合组 
+```
+将接口从端口聚合组删除
+```
+Switch(config-if)# no port-group 
+```
+将端口聚合组设置为三层接口
+```
+Switch(config)#interface aggregateport [aggregate-port-number] 
+Switch(config-if)#no switchport 
+Switch(config-if)#ip address ip-address mask 
+```
+配置流量平衡
+```
+Switch (config)#aggregateport load-balance {dst-mac|src-mac|src-dst-mac|dst-ip|src-ip|ip }
+注意：不同型号交换机支持的流量平衡算法可能会不同 
+查看端口聚合配置
+```
+查看端口聚合配置
+```
+Switch# show aggregateport [aggregate-port-number] {load-balance |summary}
+Switch# show interface aggregateport [aggregate-port-number] 
+```

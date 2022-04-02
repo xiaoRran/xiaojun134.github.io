@@ -1,0 +1,68 @@
+- class_name: 友情链接
+  class_desc: 那些人，那些事
+  link_list:
+    - name: 提莫酱のBlog
+      link: https://www.timochan.cn/
+      avatar: https://pic.sady0.com/2022/01/24/a8227efdf0e40.jpg
+      descr: Let's start learning !
+
+    - name: 隔壁小胡的博客
+      link: https://hq233.cn/
+      avatar: https://thirdqq.qlogo.cn/g?b=sdk&k=nBgDJp2uSFRdEJMqJc06RQ&s=100&t=1637988370
+      descr: 一名折腾党
+
+    - name: 孤岛
+      link: https://gao4.top/
+      avatar: https://gao4.top/tx.webp
+      descr: 迷失的孤岛
+
+    - name: 旧云博客
+      link: https://jiuyunw.cn
+      avatar: https://i.loli.net/2021/05/09/Y8JAw52WSty46Me.png
+      descr: 旧云博客-一个小小白的博客
+
+    - name: Akilarの糖果屋
+      link: https://akilar.top/
+      avatar: https://unpkg.zhimg.com/akilar-candyassets/image/siteicon/favicon.png
+      descr: 期待您的光临！
+
+    - name: 异端-人人都是艺术家
+      link: https://here.sy/
+      avatar: https://here.sy/img/favicon.ico
+      descr: 收藏记录国内外有意思有内涵有深度的文章和图片。
+
+    - name: 八八资源网
+      link: https://is88.top/
+      avatar: https://is88.top/icon.png
+      descr: 汇聚全网精品资源
+
+    - name: 沐瑾年
+      link: https://www.lemonx.cn/
+      avatar: https://s1.ax1x.com/2020/11/01/Bdjvt0.gif
+      descr: 一个铁憨憨的blog
+
+    - name: 忆梦小站
+      link: https://www.onyi.net
+      avatar: https://cdn.jsdelivr.net/gh/heyechuanmei/YiMengXinYun/image/headportrait.jpg
+      descr: 微笑着挥手再见，但内心却深知，以后不会再相见。
+
+    - name: 小康博客
+      link: https://www.antmoe.com/
+      avatar: https://cdn.jsdelivr.net/npm/kang-static@latest/avatar.jpg
+      descr: 一个收藏回忆与分享技术的地方！
+      #以下内容如果存在的情况下
+      width: 1px (代表边框的大小border-width)
+      color: '#881B12'
+
+- class_name: 网站
+  class_desc: 值得推荐的网站
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的网誌框架
+
+    - name: Butterfly
+      link: https://butterfly.js.org/
+      avatar: https://butterfly.js.org/img/avatar.png
+      descr: 超好用的Hexo主题
