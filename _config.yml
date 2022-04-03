@@ -111,7 +111,7 @@ deploy:
   repo:
     github: https://xiaojun134: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@github.com/xiaojun134/xiaojun134.github.io.git,main
   branch: main
-  token: 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
+  message: 'Deloyed by Github Actions: {{ now("YYYY-MM--DD HH:mm:ss") }}'
 
   # Live2D
 ## https://github.com/EYHN/hexo-helper-live2d
