@@ -79,11 +79,11 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: https://cdn.ideaopen.cn/xiaojun/Zcs0dZHy.png
 
 # Avatar (頭像)
 avatar:
-  img: https://pic.sady0.com/2022/01/22/fe60d1a167a45.png
+  img: https://cdn.ideaopen.cn/xiaojun/gzRMsL4X.jpg
   effect: false
 
 # Disable all banner image
@@ -839,7 +839,7 @@ inject:
   head:
     - <script async src="//at.alicdn.com/t/font_3157460_jct0u4y094.js"></script>
   bottom:
-    - <script src="https://cdn.jsdelivr.net/gh/L-20021213/Static/jscustom.js"></script>
+    - <script src="https://cdn.jsdelivr.net/gh/L-20021213/Static/jscustom.j"></script>
     # - <script src="xxxx"></script>
 
 # CDN
