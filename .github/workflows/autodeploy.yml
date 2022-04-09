@@ -1,14 +1,6 @@
 name: 自动部署
-
-on:
-  push:
-    branches:
-      - main
-
-  release:
-    types:
-      - published
-
+'on':
+  - workflow_dispatch
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -17,37 +9,35 @@ jobs:
         uses: actions/checkout@v2
         with:
           ref: master
-
       - name: 安装 Node
         uses: actions/setup-node@v1
         with:
-          node-version: "12.x"
-
+          node-version: 12.x
       - name: 缓存依赖
         uses: actions/cache@v2.1.1
         id: cache-dependencies
         with:
           path: node_modules
           key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
-
       - name: 安装 Hexo
         run: |
           npm install hexo-cli -g
-
       - name: 安装依赖
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
           export TZ='Asia/Shanghai'
           npm install --save
-
       - name: 生成静态文件
         run: |
           hexo clean
           hexo generate
-
       - name: 部署
-        run: |
+        run: >
           git config --global user.name "xiaojun134"
+
           git config --global user.email "1345561377@qq.com"
-          git clone https://github.com/xiaojun134/xiaojun134.github.io.git .deploy_git
+
+          git clone https://github.com/xiaojun134/xiaojun134.github.io.git
+          .deploy_git
+
           hexo deploy
